@@ -65,6 +65,45 @@ const ROUTES = {
   '/post/social-gathering-in-brooklyn/': 'BlogSocialGathering',
 };
 
+// Root-level SEO/discovery files.
+const ROOT_FILES = {
+  '/sitemap.xml': ['sitemap.xml', 'application/xml; charset=utf-8'],
+  '/robots.txt': ['robots.txt', 'text/plain; charset=utf-8'],
+  '/llms.txt': ['llms.txt', 'text/plain; charset=utf-8'],
+};
+
+// 301s for URLs that existed on the old WordPress site or the events Wix site
+// but have no 1:1 page here. Keyed WITHOUT the trailing slash.
+const LEGACY = {
+  // events site (theboxhousehotelevents.com) slugs
+  '/wedding': '/weddings/',
+  '/corporate': '/corporate-events/',
+  '/socialevents': '/private-events/',
+  '/madrecatering': '/madre-catering/',
+  '/room11productions': '/room-11-productions/',
+  '/our-services': '/box-house-events/',
+  '/faqs': '/faq/',
+  // old WP offer detail pages
+  '/specialoffer': '/special-offers/',
+  '/specialoffer/brooklyn-romance': '/special-offers/',
+  '/specialoffer/loyalty-promotion': '/special-offers/',
+  '/specialoffer/the-long-haul': '/special-offers/',
+  '/specialoffer/weekday-offer': '/special-offers/',
+  // old WP room-type and misc pages folded into current pages
+  '/room': '/rooms/',
+  '/standard-room': '/rooms/',
+  '/suite': '/rooms/',
+  '/apartment': '/rooms/',
+  '/apartments': '/rooms/',
+  '/penthouse': '/rooms/',
+  '/penthouses': '/rooms/',
+  '/box-house-hotel-group': '/about-the-box-house/',
+  '/culture': '/about-the-box-house/',
+  '/local-guide': '/about-the-box-house/',
+  '/covid-19': '/faq/',
+  '/gallery-demo-1': '/gallery/',
+};
+
 const MIME = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8',
@@ -86,6 +125,17 @@ function serveStatic(req, res) {
   let urlPath = decodeURIComponent((req.url.split('?')[0] || '/'));
   if (urlPath === '/favicon.ico') urlPath = '/assets/images/theme/favicon.png';
   if (urlPath === '/healthz') return send(res, 200, 'text/plain', 'ok');
+
+  if (ROOT_FILES[urlPath]) {
+    const [file, type] = ROOT_FILES[urlPath];
+    res.writeHead(200, { 'Content-Type': type, 'Cache-Control': 'no-cache' });
+    return fs.createReadStream(path.join(ROOT, file)).pipe(res);
+  }
+
+  const noSlash = urlPath.length > 1 && urlPath.endsWith('/') ? urlPath.slice(0, -1) : urlPath;
+  if (LEGACY[noSlash]) {
+    return send(res, 301, 'text/plain', 'Moved', { Location: LEGACY[noSlash] });
+  }
 
   // Clean URLs: serve the mapped page; 301 the slashless form to the canonical
   // trailing-slash URL, exactly like WordPress did.
