@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dining • The Box House Hotel</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Archivo:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F7F3EA; font-family:'Archivo',sans-serif; color:#23211C; }
+  a { color:inherit; text-decoration:none; }
+  a:hover { opacity:0.75; }
+</style>
+</helmet>
+<div style="min-width:1180px;">
+
+      <div style="display:flex; justify-content:space-between; align-items:center; background:#0D0C0A; color:#A79F8F; padding:10px 56px; font:500 13px 'Archivo',sans-serif;">
+        <div>77 Box Street, Greenpoint, Brooklyn</div>
+        <div style="display:flex; gap:28px; align-items:center;">
+          <div style="color:#C8A87A;">Best rate when you book direct</div>
+          <a href="tel:7183833800" style="font-weight:600; color:#E9E2D3;">📞 {{ phone }}</a>
+        </div>
+      </div>
+
+
+      <div style="position:relative; height:460px;" data-screen-label="Dining hero">
+        <img src="https://theboxhousehotel.com/wp-content/uploads/2018/06/dining-image.jpg" alt="Dining at the Box House" style="display:block; width:100%; height:460px; object-fit:cover;">
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(20,18,16,0.7) 0%, rgba(20,18,16,0.25) 45%, rgba(20,18,16,0.75) 100%);"></div>
+        
+        <div style="position:absolute; top:0; left:0; right:0; display:flex; align-items:center; justify-content:space-between; padding:22px 56px; color:#E9E2D3;">
+          <a href="./Home.dc.html"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-boxhouse.png" alt="The Box House Hotel" style="width:76px;"></a>
+          <div style="display:flex; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase;">
+            <a href="./Accommodations.dc.html">Accommodations</a><a href="./About.dc.html">About</a><a href="./Gallery.dc.html">Gallery</a><a href="./Dining.dc.html" style="color:#C8A87A; border-bottom:1px solid #C8A87A; padding-bottom:3px;">Dining</a><a href="./Offers.dc.html">Offers</a><a href="./Rooftop.dc.html">Rooftop</a><a href="./Contact.dc.html">Contact</a>
+          </div>
+          <a href="{{ bookingUrl }}" target="_blank" style="background:#C8A87A; color:#141210; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 24px;">Book Now</a>
+        </div>
+        <div style="position:absolute; left:56px; right:56px; bottom:56px; color:#E9E2D3;">
+          <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.28em; text-transform:uppercase; color:#C8A87A; margin-bottom:14px;">Eat &amp; drink</div>
+          <div style="font:400 52px/1.1 'Libre Caslon Text',serif; max-width:800px;">Dining at the Box House</div>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#D9D2C2; max-width:640px; margin-top:16px;">From the Brooklyn Lantern downstairs to Top of the Box above the skyline.</div>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1.2fr 1fr; align-items:center;" data-screen-label="Brooklyn Lantern">
+        <img src="https://theboxhousehotel.com/wp-content/uploads/2018/06/dining-image.jpg" alt="Brooklyn Lantern" style="display:block; width:100%; height:600px; object-fit:cover;">
+        <div style="padding:72px 64px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#A9814F; margin-bottom:14px;">On site · Breakfast, lunch &amp; dinner</div>
+          <div style="font:400 40px 'Libre Caslon Text',serif; margin-bottom:18px;">Brooklyn Lantern</div>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#6B6455; margin-bottom:24px;">A full-service restaurant &amp; bar specializing in creative American cuisine, craft and local beer, and imaginative cocktails. Our chefs believe in organic and sustainable farming, using only the freshest ingredients — served in a refined, vibrant environment.</div>
+          <div style="display:flex; flex-direction:column; gap:12px; font:400 15px/1.5 'Archivo',sans-serif; color:#6B6455; margin-bottom:30px;">
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> Creative American cuisine</div>
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> Craft &amp; local beer · imaginative cocktails</div>
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> Dine in or take to your room</div>
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> Moroccan tiles · 50 seated · 125 standing</div>
+          </div>
+          <a href="https://www.bklynlantern.com/" target="_blank" style="background:#C8A87A; color:#141210; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:15px 28px; display:inline-block;">View the menu</a>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1.2fr; align-items:center; background:#141210; color:#E9E2D3;" data-screen-label="Top of the Box">
+        <div style="padding:72px 64px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#C8A87A; margin-bottom:14px;">Rooftop bar · Select dates</div>
+          <div style="font:400 40px 'Libre Caslon Text',serif; margin-bottom:18px;">Top of the Box</div>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#A79F8F; margin-bottom:30px;">Cocktails under glass with unobstructed panoramic views of Manhattan, Brooklyn and Long Island City — a wrap-around marble bar on our fully retractable rooftop, open rain or shine.</div>
+          <div style="display:flex; gap:16px;">
+            <a href="https://resy.com/cities/ny/top-of-the-box" target="_blank" style="background:#C8A87A; color:#141210; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:15px 28px;">Reserve on Resy</a>
+            <a href="https://topofthebox.menu/10/" target="_blank" style="border:1px solid #C8A87A; color:#C8A87A; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:15px 28px;">Preview the menu</a>
+          </div>
+        </div>
+        <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/AFP_8602.jpg" alt="Top of the Box rooftop" style="display:block; width:100%; height:600px; object-fit:cover;">
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; padding:88px 56px;" data-screen-label="Dining details">
+        <div style="border:1px solid #E3DAC8; background:#FFFFFF; padding:36px;">
+          <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">In-room dining</div>
+          <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">Prefer to stay in? Take your Brooklyn Lantern order to go — every apartment has a fully equipped kitchen with cookware, dishware and utensils.</div>
+        </div>
+        <div style="border:1px solid #E3DAC8; background:#FFFFFF; padding:36px;">
+          <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">Private dining &amp; parties</div>
+          <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">The Lantern hosts after-parties, cocktail parties, movie screenings and post-wedding brunches — projector, surround sound and space for 125 standing. <a href="./Rooftop.dc.html" style="color:#A9814F; border-bottom:1px solid #A9814F;">Plan an event →</a></div>
+        </div>
+      </div>
+
+      <div style="background:#141210; color:#E9E2D3; display:flex; justify-content:space-between; align-items:center; gap:32px; padding:56px;">
+        <div>
+          <div style="font:400 32px 'Libre Caslon Text',serif; margin-bottom:8px;">Best rate when you book direct</div>
+          <div style="font:400 15px 'Archivo',sans-serif; color:#A79F8F;">Direct-booking exclusive offers apply automatically on our website.</div>
+        </div>
+        <a href="{{ bookingUrl }}" target="_blank" style="flex:0 0 auto; background:#C8A87A; color:#141210; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:18px 36px;">Check Availability</a>
+      </div>
+
+      <div style="border-top:1px solid #3A352D; background:#141210; color:#E9E2D3; padding:56px 56px 36px; text-align:center;">
+        <a href="./Home.dc.html"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-boxhouse.png" alt="The Box House Hotel" style="width:84px; margin-bottom:24px;"></a>
+        <div style="display:flex; justify-content:center; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:24px;">
+          <a href="https://theboxhousehotel.com/sitemap/" target="_blank">Sitemap</a><a href="https://theboxhousehotel.com/faq/" target="_blank">FAQ</a><a href="https://theboxhousehotel.com/accessibility/" target="_blank">Accessibility</a><a href="https://theboxhousehotel.com/press/" target="_blank">Press</a><a href="https://theboxhousehotel.com/employment-opportunities/" target="_blank">Employment</a><a href="https://theboxhousehotel.com/privacy-policy/" target="_blank">Privacy</a><a href="https://theboxhousehotel.com/cookie-policy/" target="_blank">Cookies</a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:32px; align-items:center; margin-bottom:24px;">
+          <a href="http://www.franklinguesthouse.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-franklinguesthouse.png" alt="Franklin Guesthouse" style="height:44px;"></a>
+          <a href="http://www.henrynormanhotel.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/hnh-logo_bottom.png" alt="Henry Norman Hotel" style="height:44px;"></a>
+          <a href="http://www.habitat101brooklyn.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-habitat101.png" alt="Habitat 101" style="height:44px;"></a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:24px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:20px; color:#A79F8F;">
+          <a href="https://www.facebook.com/theboxhousehotel" target="_blank">Facebook</a>
+          <a href="https://instagram.com/theboxhousehotel/" target="_blank">Instagram</a>
+          <a href="https://www.tripadvisor.com/Hotel_Review-g60827-d2452838-Reviews-The_Box_House_Hotel-Brooklyn_New_York.html" target="_blank">Tripadvisor</a>
+        </div>
+        <div style="font:400 13px 'Archivo',sans-serif; color:#7A7469;">77 Box Street, Brooklyn, NY 11222 · {{ phone }}</div>
+      </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&#10;  &quot;bookingUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;https://secure.webrez.com/hotel/1091/&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Booking&quot; },&#10;  &quot;phone&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;718.383.3800&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Contact&quot; }&#10;}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      bookingUrl: this.props.bookingUrl ?? 'https://secure.webrez.com/hotel/1091/',
+      phone: this.props.phone ?? '718.383.3800'
+    };
+  }
+}
+</script>
+</body>
+</html>

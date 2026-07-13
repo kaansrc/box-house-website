@@ -1,0 +1,24 @@
+# Derived / large — regenerate with the extract/ scripts
+raw/
+mirror/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / server
+node_modules/
+.env
+*.log
+
+# OS
+.DS_Store
+
+# Image originals — site serves only the WebP conversions (originals kept locally)
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.png
+!assets/images/theme/*.png
+assets/**/*.log

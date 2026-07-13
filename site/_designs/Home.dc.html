@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home • The Box House Hotel</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Archivo:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F7F3EA; font-family:'Archivo',sans-serif; color:#23211C; }
+  a { color:inherit; text-decoration:none; }
+  a:hover { opacity:0.75; }
+</style>
+</helmet>
+<div style="min-width:1180px;">
+
+      <div style="display:flex; justify-content:space-between; align-items:center; background:#0D0C0A; color:#A79F8F; padding:10px 56px; font:500 13px 'Archivo',sans-serif;">
+        <div>77 Box Street, Greenpoint, Brooklyn</div>
+        <div style="display:flex; gap:28px; align-items:center;">
+          <div style="color:#C8A87A;">Best rate when you book direct</div>
+          <a href="tel:7183833800" style="font-weight:600; color:#E9E2D3;">📞 {{ phone }}</a>
+        </div>
+      </div>
+
+
+      <div style="position:relative; height:780px;" data-screen-label="Home hero">
+        <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/DA9A0288web.jpg" alt="Box House loft interiors" style="display:block; width:100%; height:780px; object-fit:cover;">
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(20,18,16,0.65) 0%, rgba(20,18,16,0.15) 40%, rgba(20,18,16,0.75) 100%);"></div>
+        
+        <div style="position:absolute; top:0; left:0; right:0; display:flex; align-items:center; justify-content:space-between; padding:22px 56px; color:#E9E2D3;">
+          <a href="./Home.dc.html"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-boxhouse.png" alt="The Box House Hotel" style="width:76px;"></a>
+          <div style="display:flex; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase;">
+            <a href="./Accommodations.dc.html">Accommodations</a><a href="./About.dc.html">About</a><a href="./Gallery.dc.html">Gallery</a><a href="./Dining.dc.html">Dining</a><a href="./Offers.dc.html">Offers</a><a href="./Rooftop.dc.html">Rooftop</a><a href="./Contact.dc.html">Contact</a>
+          </div>
+          <a href="{{ bookingUrl }}" target="_blank" style="background:#C8A87A; color:#141210; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 24px;">Book Now</a>
+        </div>
+        <div style="position:absolute; left:56px; bottom:64px; max-width:680px; color:#E9E2D3;">
+          <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.28em; text-transform:uppercase; color:#C8A87A; margin-bottom:16px;">Greenpoint · Brooklyn · NYC</div>
+          <div style="font:400 60px/1.08 'Libre Caslon Text',serif; margin-bottom:22px;">The feel of home, minutes from Manhattan</div>
+          <div style="display:flex; gap:36px; font:500 13px 'Archivo',sans-serif; letter-spacing:0.06em; color:#D9D2C2;">
+            <div>✓ Best rate direct</div><div>✓ Lofts 250–1,200 ft²</div><div>✓ 24/7 concierge</div>
+          </div>
+        </div>
+        <div style="position:absolute; right:56px; bottom:64px; width:340px; background:#1E1B17; border:1px solid #3A352D; box-shadow:0 12px 40px rgba(0,0,0,0.5); padding:28px; display:flex; flex-direction:column; gap:16px;">
+          <div style="font:400 22px 'Libre Caslon Text',serif; color:#E9E2D3;">Check availability</div>
+          <label style="display:flex; flex-direction:column; gap:6px; border:1px solid #3A352D; padding:12px 14px;">
+            <span style="font:600 10px 'Archivo',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#8A8377;">Check-in</span>
+            <input type="date" style="border:none; outline:none; font:500 15px 'Archivo',sans-serif; color:#E9E2D3; background:transparent; color-scheme:dark;">
+          </label>
+          <label style="display:flex; flex-direction:column; gap:6px; border:1px solid #3A352D; padding:12px 14px;">
+            <span style="font:600 10px 'Archivo',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#8A8377;">Check-out</span>
+            <input type="date" style="border:none; outline:none; font:500 15px 'Archivo',sans-serif; color:#E9E2D3; background:transparent; color-scheme:dark;">
+          </label>
+          <a href="{{ bookingUrl }}" target="_blank" style="background:#C8A87A; color:#141210; text-align:center; font:600 14px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:16px 0;">Check Rates</a>
+          <div style="font:400 12px 'Archivo',sans-serif; color:#8A8377; text-align:center;">Direct-booking exclusive offers apply automatically</div>
+        </div>
+      </div>
+      <div style="display:flex; justify-content:center; gap:64px; padding:52px 56px; border-bottom:1px solid #E3DAC8; font:500 14px 'Archivo',sans-serif; color:#6B6455;">
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#A9814F;">✓</span> Best rate guaranteed on our website</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#A9814F;">✓</span> Direct-booking exclusive offers</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#A9814F;">✓</span> 24/7 front desk &amp; concierge</div>
+        <a href="https://www.tripadvisor.com/Hotel_Review-g60827-d2452838-Reviews-The_Box_House_Hotel-Brooklyn_New_York.html" target="_blank" style="display:flex; align-items:center; gap:10px; color:#23211C; border-bottom:1px solid #A9814F;">Read our reviews on Tripadvisor</a>
+      </div>
+
+      <div style="padding:88px 56px;" data-screen-label="Home rooms">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:40px;">
+          <div style="font:400 42px 'Libre Caslon Text',serif;">Choose your loft</div>
+          <a href="./Accommodations.dc.html" style="font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; color:#A9814F;">Compare all accommodations →</a>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:24px;">
+          <div style="display:flex; flex-direction:column; background:#FFFFFF; border:1px solid #E3DAC8;">
+            <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/DA9A9950-Edit.jpg" alt="Rooms" style="display:block; width:100%; aspect-ratio:970/647; object-fit:cover;">
+            <div style="display:flex; flex-direction:column; gap:8px; padding:24px 24px 28px; flex:1;">
+              <div style="font:400 24px 'Libre Caslon Text',serif;">Rooms</div>
+              <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.06em; color:#A9814F;">1 Queen Bed · from 250 ft²</div>
+              <div style="font:400 14px/1.6 'Archivo',sans-serif; color:#6B6455; margin-bottom:12px;">Generously sized, modern and airy loft-style room. Sleeps up to two.</div>
+              <a href="https://secure.webrez.com/hotel/1091/?invtype_id=27150" target="_blank" style="margin-top:auto; text-align:center; border:1px solid #A9814F; color:#A9814F; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 0;" style-hover="background:#C8A87A; color:#141210;">Check Availability</a>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; background:#FFFFFF; border:1px solid #E3DAC8;">
+            <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/DA9A9587.jpg" alt="Suites" style="display:block; width:100%; aspect-ratio:970/647; object-fit:cover;">
+            <div style="display:flex; flex-direction:column; gap:8px; padding:24px 24px 28px; flex:1;">
+              <div style="font:400 24px 'Libre Caslon Text',serif;">Suites</div>
+              <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.06em; color:#A9814F;">Queen or King Bed · 650 ft²</div>
+              <div style="font:400 14px/1.6 'Archivo',sans-serif; color:#6B6455; margin-bottom:12px;">Spacious living room, sofa bed, separate bedroom and private balcony. Sleeps up to four.</div>
+              <a href="https://secure.webrez.com/hotel/1091/?invtype_id=27151" target="_blank" style="margin-top:auto; text-align:center; border:1px solid #A9814F; color:#A9814F; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 0;" style-hover="background:#C8A87A; color:#141210;">Check Availability</a>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; background:#FFFFFF; border:1px solid #E3DAC8;">
+            <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/loft-suite-with-terrace-2.jpg" alt="Apartments" style="display:block; width:100%; aspect-ratio:970/647; object-fit:cover;">
+            <div style="display:flex; flex-direction:column; gap:8px; padding:24px 24px 28px; flex:1;">
+              <div style="font:400 24px 'Libre Caslon Text',serif;">Apartments</div>
+              <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.06em; color:#A9814F;">Full kitchens · Sleeps up to 6</div>
+              <div style="font:400 14px/1.6 'Archivo',sans-serif; color:#6B6455; margin-bottom:12px;">Loft-style apartments with fully equipped kitchens — ideal for families and longer stays.</div>
+              <a href="https://secure.webrez.com/hotel/1091/" target="_blank" style="margin-top:auto; text-align:center; border:1px solid #A9814F; color:#A9814F; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 0;" style-hover="background:#C8A87A; color:#141210;">Check Availability</a>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; background:#FFFFFF; border:1px solid #E3DAC8;">
+            <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/DA9A9835-Edit-2web.jpg" alt="Penthouse" style="display:block; width:100%; aspect-ratio:970/647; object-fit:cover;">
+            <div style="display:flex; flex-direction:column; gap:8px; padding:24px 24px 28px; flex:1;">
+              <div style="font:400 24px 'Libre Caslon Text',serif;">Penthouse</div>
+              <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.06em; color:#A9814F;">1 King + 1 Queen Bed</div>
+              <div style="font:400 14px/1.6 'Archivo',sans-serif; color:#6B6455; margin-bottom:12px;">Vast loft-style penthouse with sweeping views. Sleeps up to four.</div>
+              <a href="https://secure.webrez.com/hotel/1091/?invtype_id=27152" target="_blank" style="margin-top:auto; text-align:center; border:1px solid #A9814F; color:#A9814F; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 0;" style-hover="background:#C8A87A; color:#141210;">Check Availability</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#141210; color:#E9E2D3; padding:80px 56px;" data-screen-label="Home offers">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:36px;">
+          <div style="font:400 38px 'Libre Caslon Text',serif;">Save when you book direct</div>
+          <a href="./Offers.dc.html" style="font:400 15px 'Archivo',sans-serif; color:#C8A87A;">See all offers →</a>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:20px;">
+          <div style="border:1px solid #2C2823; padding:26px; display:flex; flex-direction:column; gap:8px;">
+            <div style="font:600 10px 'Archivo',sans-serif; letter-spacing:0.18em; text-transform:uppercase; color:#C8A87A;">Romantic getaway</div>
+            <div style="font:400 21px 'Libre Caslon Text',serif;">Brooklyn Romance</div>
+            <div style="font:400 13px/1.5 'Archivo',sans-serif; color:#A79F8F; margin-bottom:10px;">XOXO in Brooklyn — a romantic escape for two.</div>
+            <a href="{{ bookingUrl }}" target="_blank" style="margin-top:auto; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; color:#C8A87A;">Book this offer →</a>
+          </div>
+          <div style="border:1px solid #2C2823; padding:26px; display:flex; flex-direction:column; gap:8px;">
+            <div style="font:600 10px 'Archivo',sans-serif; letter-spacing:0.18em; text-transform:uppercase; color:#C8A87A;">Returning guests</div>
+            <div style="font:400 21px 'Libre Caslon Text',serif;">Loyalty Promotion</div>
+            <div style="font:400 13px/1.5 'Archivo',sans-serif; color:#A79F8F; margin-bottom:10px;">We appreciate your loyalty — returning guest rates.</div>
+            <a href="{{ bookingUrl }}" target="_blank" style="margin-top:auto; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; color:#C8A87A;">Book this offer →</a>
+          </div>
+          <div style="border:1px solid #2C2823; padding:26px; display:flex; flex-direction:column; gap:8px;">
+            <div style="font:600 10px 'Archivo',sans-serif; letter-spacing:0.18em; text-transform:uppercase; color:#C8A87A;">Sun–Thu</div>
+            <div style="font:400 21px 'Libre Caslon Text',serif;">Weekday Special</div>
+            <div style="font:400 13px/1.5 'Archivo',sans-serif; color:#A79F8F; margin-bottom:10px;">Better rates Sunday through Thursday.</div>
+            <a href="{{ bookingUrl }}" target="_blank" style="margin-top:auto; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; color:#C8A87A;">Book this offer →</a>
+          </div>
+          <div style="border:1px solid #2C2823; padding:26px; display:flex; flex-direction:column; gap:8px;">
+            <div style="font:600 10px 'Archivo',sans-serif; letter-spacing:0.18em; text-transform:uppercase; color:#C8A87A;">5+ nights</div>
+            <div style="font:400 21px 'Libre Caslon Text',serif;">The Long Haul</div>
+            <div style="font:400 13px/1.5 'Archivo',sans-serif; color:#A79F8F; margin-bottom:10px;">Book five nights or more to unlock our best rates.</div>
+            <a href="{{ bookingUrl }}" target="_blank" style="margin-top:auto; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; color:#C8A87A;">Book this offer →</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="position:relative; height:560px;" data-screen-label="Home rooftop">
+        <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/box-house-hotel-rooftop-970x647.jpg" alt="Rooftop at dusk" style="display:block; width:100%; height:560px; object-fit:cover;">
+        <div style="position:absolute; inset:0; background:rgba(20,18,16,0.55); color:#E9E2D3; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:0 56px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.3em; text-transform:uppercase; color:#C8A87A; margin-bottom:16px;">Rooftop &amp; Events</div>
+          <div style="font:400 48px/1.1 'Libre Caslon Text',serif; max-width:800px;">Host up to 293 guests above the skyline</div>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#D9D2C2; max-width:620px; margin:20px 0 32px;">Weddings, corporate events &amp; private parties — in-house planning and a fully retractable glass rooftop.</div>
+          <a href="./Rooftop.dc.html" style="background:#E9E2D3; color:#141210; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:16px 32px;">Explore the rooftop</a>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1.15fr; align-items:center;" data-screen-label="Home why direct">
+        <div style="padding:72px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#A9814F; margin-bottom:18px;">Why guests choose the Box House</div>
+          <div style="font:400 32px/1.25 'Libre Caslon Text',serif; margin-bottom:26px;">The feel of home — with hotel service around the clock</div>
+          <div style="display:flex; flex-direction:column; gap:14px; font:400 15px/1.6 'Archivo',sans-serif; color:#6B6455;">
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> Loft rooms from 250 to 1,200 ft² — larger than typical NYC hotels</div>
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> Full kitchens in apartments — ideal for families &amp; longer stays</div>
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> On-site restaurant, fitness center &amp; vintage checker-cab shuttle</div>
+            <div style="display:flex; gap:12px;"><span style="color:#A9814F;">✓</span> East River Ferry &amp; subway nearby — Midtown in minutes</div>
+          </div>
+          <a href="{{ bookingUrl }}" target="_blank" style="display:inline-block; margin-top:30px; background:#C8A87A; color:#141210; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:16px 30px;">Check Availability</a>
+        </div>
+        <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/DA9A9500-Edit-1.jpg" alt="One Bedroom suite interior" style="display:block; width:100%; height:600px; object-fit:cover;">
+      </div>
+
+      <div style="border-top:1px solid #3A352D; background:#141210; color:#E9E2D3; padding:56px 56px 36px; text-align:center;">
+        <a href="./Home.dc.html"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-boxhouse.png" alt="The Box House Hotel" style="width:84px; margin-bottom:24px;"></a>
+        <div style="display:flex; justify-content:center; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:24px;">
+          <a href="https://theboxhousehotel.com/sitemap/" target="_blank">Sitemap</a><a href="https://theboxhousehotel.com/faq/" target="_blank">FAQ</a><a href="https://theboxhousehotel.com/accessibility/" target="_blank">Accessibility</a><a href="https://theboxhousehotel.com/press/" target="_blank">Press</a><a href="https://theboxhousehotel.com/employment-opportunities/" target="_blank">Employment</a><a href="https://theboxhousehotel.com/privacy-policy/" target="_blank">Privacy</a><a href="https://theboxhousehotel.com/cookie-policy/" target="_blank">Cookies</a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:32px; align-items:center; margin-bottom:24px;">
+          <a href="http://www.franklinguesthouse.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-franklinguesthouse.png" alt="Franklin Guesthouse" style="height:44px;"></a>
+          <a href="http://www.henrynormanhotel.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/hnh-logo_bottom.png" alt="Henry Norman Hotel" style="height:44px;"></a>
+          <a href="http://www.habitat101brooklyn.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-habitat101.png" alt="Habitat 101" style="height:44px;"></a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:24px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:20px; color:#A79F8F;">
+          <a href="https://www.facebook.com/theboxhousehotel" target="_blank">Facebook</a>
+          <a href="https://instagram.com/theboxhousehotel/" target="_blank">Instagram</a>
+          <a href="https://www.tripadvisor.com/Hotel_Review-g60827-d2452838-Reviews-The_Box_House_Hotel-Brooklyn_New_York.html" target="_blank">Tripadvisor</a>
+        </div>
+        <div style="font:400 13px 'Archivo',sans-serif; color:#7A7469;">77 Box Street, Brooklyn, NY 11222 · {{ phone }}</div>
+      </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&#10;  &quot;bookingUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;https://secure.webrez.com/hotel/1091/&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Booking&quot; },&#10;  &quot;phone&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;718.383.3800&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Contact&quot; }&#10;}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      bookingUrl: this.props.bookingUrl ?? 'https://secure.webrez.com/hotel/1091/',
+      phone: this.props.phone ?? '718.383.3800'
+    };
+  }
+}
+</script>
+</body>
+</html>

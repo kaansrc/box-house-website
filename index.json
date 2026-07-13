@@ -1,0 +1,1007 @@
+{
+  "site": "theboxhousehotel.com",
+  "generated_from": "WordPress REST API + rendered HTML",
+  "count": 56,
+  "items": [
+    {
+      "title": "Covid-19",
+      "slug": "covid-19",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/covid-19/",
+      "markdown": "content/pages/covid-19.md",
+      "featured_image": null,
+      "image_count": 1,
+      "images": [
+        "/assets/images/2018/08/BHH-room.jpg"
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "slug": "accessibility",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/accessibility/",
+      "markdown": "content/pages/accessibility.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "FAQ",
+      "slug": "faq",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/faq/",
+      "markdown": "content/pages/faq.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Apartments",
+      "slug": "apartments",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/apartments/",
+      "markdown": "content/pages/apartments.md",
+      "featured_image": null,
+      "image_count": 8,
+      "images": [
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg"
+      ]
+    },
+    {
+      "title": "Gallery Demo 1",
+      "slug": "gallery-demo-1",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/gallery-demo-1/",
+      "markdown": "content/pages/gallery-demo-1.md",
+      "featured_image": null,
+      "image_count": 40,
+      "images": [
+        "/assets/images/2018/08/11-3-17-Boxhouse-Rooftop-23-1-970x647.jpg",
+        "/assets/images/2018/08/BXHentrance-1-970x625.jpg",
+        "/assets/images/2018/08/BXHentrance-1.jpg",
+        "/assets/images/2018/08/box-house-hotel-rooftop-970x647.jpg",
+        "/assets/images/2018/08/box-house-hotel-rooftop.jpg",
+        "/assets/images/2018/08/common-area-11-1-970x647.jpg",
+        "/assets/images/2018/08/hallway-1-970x647.jpg",
+        "/assets/images/2018/08/hotel04-1-970x643.jpg",
+        "/assets/images/2018/08/hotel04-1-980x430.jpg",
+        "/assets/images/2018/08/hotel27-1-970x642.jpg",
+        "/assets/images/2018/08/hotel27-1-980x430.jpg",
+        "/assets/images/2018/11/4956637_SmartShoot_16cc7e00-a2dd-4368-a615-b645b3debb91-450x300.jpg",
+        "/assets/images/2018/11/4956637_SmartShoot_16cc7e00-a2dd-4368-a615-b645b3debb91-970x647.jpg",
+        "/assets/images/2019/02/1-bedroom-with-city-view-11-970x647.jpg",
+        "/assets/images/2019/02/1-bedroom-with-city-view-11-980x430.jpg",
+        "/assets/images/2019/02/1-bedroom-with-city-view-7-970x647.jpg",
+        "/assets/images/2019/02/1-bedroom-with-terrace-7-450x300.jpg",
+        "/assets/images/2019/02/1-bedroom-with-terrace-7-970x647.jpg",
+        "/assets/images/2019/02/2-bedroom-duplex-5-480x280.jpg",
+        "/assets/images/2019/02/2-bedroom-duplex-5-970x647.jpg",
+        "/assets/images/2019/02/2-bedroom-with-terrace-8-480x280.jpg",
+        "/assets/images/2019/02/2-bedroom-with-terrace-8-970x647.jpg",
+        "/assets/images/2019/02/IMG_1853-683x1024.jpg",
+        "/assets/images/2019/02/IMG_1853-980x430.jpg",
+        "/assets/images/2019/02/bhpillow-480x280.jpg",
+        "/assets/images/2019/02/bhpillow-970x647.jpg",
+        "/assets/images/2019/02/common-area-12-450x300.jpg",
+        "/assets/images/2019/02/common-area-12-970x647.jpg",
+        "/assets/images/2019/02/common-area-5-970x647.jpg",
+        "/assets/images/2019/02/common-area-5-980x430.jpg",
+        "/assets/images/2019/02/duplex-loft-with-patio-7-480x280.jpg",
+        "/assets/images/2019/02/duplex-loft-with-patio-7-970x647.jpg",
+        "/assets/images/2019/02/superior-4-449x300.jpg",
+        "/assets/images/2019/02/superior-4-970x649.jpg",
+        "/assets/images/2019/02/superior-city-view-with-balcony-7-480x280.jpg",
+        "/assets/images/2019/02/superior-city-view-with-balcony-7-970x647.jpg",
+        "/assets/images/2019/02/superior-with-balcony-5-450x300.jpg",
+        "/assets/images/2019/02/superior-with-balcony-5-970x647.jpg",
+        "/assets/images/2019/02/table1-446x300.jpg",
+        "/assets/images/2019/02/table1-970x652.jpg"
+      ]
+    },
+    {
+      "title": "Penthouse",
+      "slug": "penthouses",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/penthouses/",
+      "markdown": "content/pages/penthouses.md",
+      "featured_image": null,
+      "image_count": 1,
+      "images": [
+        "/assets/images/2018/08/Box-house-hotel-penthouse-e1549485887506.jpg"
+      ]
+    },
+    {
+      "title": "Suites",
+      "slug": "suite",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/suite/",
+      "markdown": "content/pages/suite.md",
+      "featured_image": null,
+      "image_count": 1,
+      "images": [
+        "/assets/images/2018/08/One-Bedroom-with-Balcony.jpg"
+      ]
+    },
+    {
+      "title": "Standard Rooms",
+      "slug": "standard-room",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/standard-room/",
+      "markdown": "content/pages/standard-room.md",
+      "featured_image": null,
+      "image_count": 3,
+      "images": [
+        "/assets/images/2018/08/Superior-with-Balcony-City-View.jpg",
+        "/assets/images/2018/08/Superior-with-Balcony-thmb.jpg",
+        "/assets/images/2018/08/superior-7-1-e1542239153676.jpg"
+      ]
+    },
+    {
+      "title": "Press",
+      "slug": "press",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/press/",
+      "markdown": "content/pages/press.md",
+      "featured_image": null,
+      "image_count": 9,
+      "images": [
+        "/assets/images/2018/08/LA-TIMES.png",
+        "/assets/images/2018/08/afar.png",
+        "/assets/images/2018/08/bedsinbrooklyn.png",
+        "/assets/images/2018/08/businessinsider.png",
+        "/assets/images/2018/08/justluxe.png",
+        "/assets/images/2018/08/penta.png",
+        "/assets/images/2018/08/themanual.png",
+        "/assets/images/2018/08/usnews.png",
+        "/assets/images/2019/02/Screen-Shot-2019-02-06-at-1.02.54-PM.png"
+      ]
+    },
+    {
+      "title": "Rooftop",
+      "slug": "events",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/events/",
+      "markdown": "content/pages/events.md",
+      "featured_image": null,
+      "image_count": 5,
+      "images": [
+        "/assets/images/2019/01/Couples_Choice_Awards_2019-2-232x300.jpg",
+        "/assets/images/2019/01/Couples_Choice_Awards_2019-2-768x992.jpg",
+        "/assets/images/2019/01/Couples_Choice_Awards_2019-2-93x120.jpg",
+        "/assets/images/2019/01/Couples_Choice_Awards_2019-2.jpg",
+        "/assets/images/2019/02/AFP_8602.jpg"
+      ]
+    },
+    {
+      "title": "Dining",
+      "slug": "dining",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/dining/",
+      "markdown": "content/pages/dining.md",
+      "featured_image": null,
+      "image_count": 1,
+      "images": [
+        "/assets/images/2018/06/dining-image.jpg"
+      ]
+    },
+    {
+      "title": "Employment Opportunities",
+      "slug": "employment-opportunities",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/employment-opportunities/",
+      "markdown": "content/pages/employment-opportunities.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Cookie Policy",
+      "slug": "cookie-policy",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/cookie-policy/",
+      "markdown": "content/pages/cookie-policy.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Privacy policy",
+      "slug": "privacy-policy",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/privacy-policy/",
+      "markdown": "content/pages/privacy-policy.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Sitemap",
+      "slug": "sitemap",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/sitemap/",
+      "markdown": "content/pages/sitemap.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Gallery",
+      "slug": "gallery",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/gallery/",
+      "markdown": "content/pages/gallery.md",
+      "featured_image": null,
+      "image_count": 40,
+      "images": [
+        "/assets/images/2018/08/11-3-17-Boxhouse-Rooftop-23-1-970x647.jpg",
+        "/assets/images/2018/08/BXHentrance-1-970x625.jpg",
+        "/assets/images/2018/08/BXHentrance-1.jpg",
+        "/assets/images/2018/08/box-house-hotel-rooftop-970x647.jpg",
+        "/assets/images/2018/08/box-house-hotel-rooftop.jpg",
+        "/assets/images/2018/08/common-area-11-1-970x647.jpg",
+        "/assets/images/2018/08/hallway-1-970x647.jpg",
+        "/assets/images/2018/08/hotel04-1-970x643.jpg",
+        "/assets/images/2018/08/hotel04-1-980x430.jpg",
+        "/assets/images/2018/08/hotel27-1-970x642.jpg",
+        "/assets/images/2018/08/hotel27-1-980x430.jpg",
+        "/assets/images/2018/11/4956637_SmartShoot_16cc7e00-a2dd-4368-a615-b645b3debb91-450x300.jpg",
+        "/assets/images/2018/11/4956637_SmartShoot_16cc7e00-a2dd-4368-a615-b645b3debb91-970x647.jpg",
+        "/assets/images/2019/02/1-bedroom-with-city-view-11-970x647.jpg",
+        "/assets/images/2019/02/1-bedroom-with-city-view-11-980x430.jpg",
+        "/assets/images/2019/02/1-bedroom-with-city-view-7-970x647.jpg",
+        "/assets/images/2019/02/1-bedroom-with-terrace-7-450x300.jpg",
+        "/assets/images/2019/02/1-bedroom-with-terrace-7-970x647.jpg",
+        "/assets/images/2019/02/2-bedroom-duplex-5-480x280.jpg",
+        "/assets/images/2019/02/2-bedroom-duplex-5-970x647.jpg",
+        "/assets/images/2019/02/2-bedroom-with-terrace-8-480x280.jpg",
+        "/assets/images/2019/02/2-bedroom-with-terrace-8-970x647.jpg",
+        "/assets/images/2019/02/IMG_1853-683x1024.jpg",
+        "/assets/images/2019/02/IMG_1853-980x430.jpg",
+        "/assets/images/2019/02/bhpillow-480x280.jpg",
+        "/assets/images/2019/02/bhpillow-970x647.jpg",
+        "/assets/images/2019/02/common-area-12-450x300.jpg",
+        "/assets/images/2019/02/common-area-12-970x647.jpg",
+        "/assets/images/2019/02/common-area-5-970x647.jpg",
+        "/assets/images/2019/02/common-area-5-980x430.jpg",
+        "/assets/images/2019/02/duplex-loft-with-patio-7-480x280.jpg",
+        "/assets/images/2019/02/duplex-loft-with-patio-7-970x647.jpg",
+        "/assets/images/2019/02/superior-4-449x300.jpg",
+        "/assets/images/2019/02/superior-4-970x649.jpg",
+        "/assets/images/2019/02/superior-city-view-with-balcony-7-480x280.jpg",
+        "/assets/images/2019/02/superior-city-view-with-balcony-7-970x647.jpg",
+        "/assets/images/2019/02/superior-with-balcony-5-450x300.jpg",
+        "/assets/images/2019/02/superior-with-balcony-5-970x647.jpg",
+        "/assets/images/2019/02/table1-446x300.jpg",
+        "/assets/images/2019/02/table1-970x652.jpg"
+      ]
+    },
+    {
+      "title": "Accommodations",
+      "slug": "rooms",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/rooms/",
+      "markdown": "content/pages/rooms.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/08/BHH-room.jpg",
+        "/assets/images/2018/08/Bk-thumbnail.jpg",
+        "/assets/images/2018/08/Box-house-hotel-penthouse-e1549485887506.jpg",
+        "/assets/images/2018/08/Standard-rooms.jpg"
+      ]
+    },
+    {
+      "title": "Box House Hotel Group",
+      "slug": "box-house-hotel-group",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/box-house-hotel-group/",
+      "markdown": "content/pages/box-house-hotel-group.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/contact/",
+      "markdown": "content/pages/contact.md",
+      "featured_image": null,
+      "image_count": 1,
+      "images": [
+        "/assets/images/2018/08/map-icon.png"
+      ]
+    },
+    {
+      "title": "Special Offers",
+      "slug": "special-offers",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/special-offers/",
+      "markdown": "content/pages/special-offers.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/02/BH-Expended-stay.jpg",
+        "/assets/images/2018/02/long-haul.jpg",
+        "/assets/images/2018/02/thumbnail-brooklynromance-1.jpg",
+        "/assets/images/2019/04/loyalty-promo.jpg"
+      ]
+    },
+    {
+      "title": "Local Guide",
+      "slug": "local-guide",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/local-guide/",
+      "markdown": "content/pages/local-guide.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Culture",
+      "slug": "culture",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/culture/",
+      "markdown": "content/pages/culture.md",
+      "featured_image": null,
+      "image_count": 1,
+      "images": [
+        "/assets/images/2017/11/33275159.jpg"
+      ]
+    },
+    {
+      "title": "About",
+      "slug": "about-the-box-house",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/about-the-box-house/",
+      "markdown": "content/pages/about-the-box-house.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Home Page",
+      "slug": "home-page",
+      "type": "page",
+      "section": "pages",
+      "original_url": "https://theboxhousehotel.com/",
+      "markdown": "content/pages/home-page.md",
+      "featured_image": null,
+      "image_count": 9,
+      "images": [
+        "/assets/images/2018/08/map-icon.png",
+        "/assets/images/2018/02/BH-Expended-stay.jpg",
+        "/assets/images/2018/02/long-haul.jpg",
+        "/assets/images/2018/02/thumbnail-brooklynromance-1.jpg",
+        "/assets/images/2018/08/Box-house-hotel-view.jpg",
+        "/assets/images/2018/08/loft-suite-with-terrace-2.jpg",
+        "/assets/images/2019/02/DA9A0288web.jpg",
+        "/assets/images/2019/04/loyalty-promo.jpg",
+        "/assets/images/boxhouse_map.png"
+      ]
+    },
+    {
+      "title": "Hello world!",
+      "slug": "hello-world",
+      "type": "post",
+      "section": "blog",
+      "original_url": "https://theboxhousehotel.com/hello-world/",
+      "markdown": "content/blog/hello-world.md",
+      "featured_image": null,
+      "image_count": 0,
+      "images": []
+    },
+    {
+      "title": "Superior",
+      "slug": "superior",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/superior/",
+      "markdown": "content/rooms/superior.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/08/DA9A9941-Edit-2.jpg",
+        "/assets/images/2018/08/DA9A9950-Edit.jpg",
+        "/assets/images/2018/08/Superior-with-Balcony-City-View.jpg",
+        "/assets/images/2018/08/Superior-with-Balcony-thmb.jpg"
+      ]
+    },
+    {
+      "title": "Superior with Balcony",
+      "slug": "superior-with-balcony",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/superior-with-balcony/",
+      "markdown": "content/rooms/superior-with-balcony.md",
+      "featured_image": null,
+      "image_count": 5,
+      "images": [
+        "/assets/images/2018/08/DA9A9954.jpg",
+        "/assets/images/2018/08/DA9A9969.jpg",
+        "/assets/images/2018/08/Superior-with-Balcony-City-View.jpg",
+        "/assets/images/2018/08/superior-7-1-e1542239153676.jpg",
+        "/assets/images/2018/08/superior-with-balcony-3.jpg"
+      ]
+    },
+    {
+      "title": "Superior with Balcony City View",
+      "slug": "superior-with-balcony-city-view",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/superior-with-balcony-city-view/",
+      "markdown": "content/rooms/superior-with-balcony-city-view.md",
+      "featured_image": null,
+      "image_count": 6,
+      "images": [
+        "/assets/images/2018/08/DA9A9785-Edit.jpg",
+        "/assets/images/2018/08/DA9A9941-Edit-2.jpg",
+        "/assets/images/2018/08/Superior-with-Balcony-thmb.jpg",
+        "/assets/images/2018/08/boxhouse-2-19-18-12.jpg",
+        "/assets/images/2018/08/superior-7-1-e1542239153676.jpg",
+        "/assets/images/2018/08/superior-city-view-with-balcony-3.jpg"
+      ]
+    },
+    {
+      "title": "One Bedroom with Balcony",
+      "slug": "one-bedroom-with-balcony",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/one-bedroom-with-balcony/",
+      "markdown": "content/rooms/one-bedroom-with-balcony.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/08/DA9A9500-Edit-1.jpg",
+        "/assets/images/2018/08/DA9A9587.jpg",
+        "/assets/images/2018/08/DA9A9597-Edit.jpg",
+        "/assets/images/2018/08/DA9A9606.jpg"
+      ]
+    },
+    {
+      "title": "Loft with Terrace",
+      "slug": "studio-apartment",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/studio-apartment/",
+      "markdown": "content/rooms/studio-apartment.md",
+      "featured_image": null,
+      "image_count": 11,
+      "images": [
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/br-7.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg",
+        "/assets/images/2018/08/hotel103.jpg",
+        "/assets/images/2018/08/hotel99.jpg",
+        "/assets/images/2018/08/loft-suite-with-terrace-2.jpg"
+      ]
+    },
+    {
+      "title": "Duplex Loft",
+      "slug": "duplex-apartment",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/duplex-apartment/",
+      "markdown": "content/rooms/duplex-apartment.md",
+      "featured_image": null,
+      "image_count": 12,
+      "images": [
+        "/assets/images/2018/08/DA9A0008.jpg",
+        "/assets/images/2018/08/DA9A0010-Edit.jpg",
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/DA9A9447.jpg",
+        "/assets/images/2018/08/DA9A9974-Edit-2.jpg",
+        "/assets/images/2018/08/DA9A9981-Edit-2.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg"
+      ]
+    },
+    {
+      "title": "Duplex Loft with Patio",
+      "slug": "duplex-apartment-with-patio",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/duplex-apartment-with-patio/",
+      "markdown": "content/rooms/duplex-apartment-with-patio.md",
+      "featured_image": null,
+      "image_count": 11,
+      "images": [
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/DA9A9447.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-loft-with-patio-1-1.jpg",
+        "/assets/images/2018/08/duplex-loft-with-patio-3.jpg",
+        "/assets/images/2018/08/duplex-loft-with-patio-6.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg"
+      ]
+    },
+    {
+      "title": "One Bedroom with Terrace",
+      "slug": "one-bedroom-apartment-with-terrace",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/one-bedroom-apartment-with-terrace/",
+      "markdown": "content/rooms/one-bedroom-apartment-with-terrace.md",
+      "featured_image": null,
+      "image_count": 14,
+      "images": [
+        "/assets/images/2018/08/1-bedroom-with-terrace-1.jpg",
+        "/assets/images/2018/08/1-bedroom-with-terrace-4.jpg",
+        "/assets/images/2018/08/1-bedroom-with-terrace-5.jpg",
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg",
+        "/assets/images/2018/08/onebr1.jpg",
+        "/assets/images/2018/08/onebr2.jpg",
+        "/assets/images/2018/08/onebr3.jpg",
+        "/assets/images/2018/08/onebr4.jpg"
+      ]
+    },
+    {
+      "title": "Two Bedroom with Terrace",
+      "slug": "two-bedroom-apartment-with-terrace",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/two-bedroom-apartment-with-terrace/",
+      "markdown": "content/rooms/two-bedroom-apartment-with-terrace.md",
+      "featured_image": null,
+      "image_count": 13,
+      "images": [
+        "/assets/images/2018/08/2-bedroom-with-terrace-4.jpg",
+        "/assets/images/2018/08/2-bedroom-with-terrace-6.jpg",
+        "/assets/images/2018/08/2BRT1.jpg",
+        "/assets/images/2018/08/2BRT2.jpg",
+        "/assets/images/2018/08/2BRT4.jpg",
+        "/assets/images/2018/08/2BRT5.jpg",
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg"
+      ]
+    },
+    {
+      "title": "Two Bedroom Duplex",
+      "slug": "two-bedroom-duplex-apartment",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/two-bedroom-duplex-apartment/",
+      "markdown": "content/rooms/two-bedroom-duplex-apartment.md",
+      "featured_image": null,
+      "image_count": 14,
+      "images": [
+        "/assets/images/2018/08/2-bedroom-duplex-1.jpg",
+        "/assets/images/2018/08/2-bedroom-duplex-2.jpg",
+        "/assets/images/2018/08/2-bedroom-duplex-3.jpg",
+        "/assets/images/2018/08/2-bedroom-duplex-9.jpg",
+        "/assets/images/2018/08/2BRD2.jpg",
+        "/assets/images/2018/08/2BRD4.jpg",
+        "/assets/images/2018/08/2BRD5.jpg",
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg"
+      ]
+    },
+    {
+      "title": "Penthouse Suite",
+      "slug": "penthouse-suite",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/penthouse-suite/",
+      "markdown": "content/rooms/penthouse-suite.md",
+      "featured_image": null,
+      "image_count": 8,
+      "images": [
+        "/assets/images/2018/08/DA9A9835-Edit-2web.jpg",
+        "/assets/images/2018/08/DA9A9869-2web.jpg",
+        "/assets/images/2018/08/DA9A9894-Editweb.jpg",
+        "/assets/images/2018/08/DA9A9907-2web.jpg",
+        "/assets/images/2018/08/DA9A9920-Edit-2web.jpg",
+        "/assets/images/2018/08/PHbr5.jpg",
+        "/assets/images/2018/08/PHlr2.jpg",
+        "/assets/images/2018/08/penthouse-8.jpg"
+      ]
+    },
+    {
+      "title": "Loft",
+      "slug": "studio-loft-apartment",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/studio-loft-apartment/",
+      "markdown": "content/rooms/studio-loft-apartment.md",
+      "featured_image": null,
+      "image_count": 12,
+      "images": [
+        "/assets/images/2018/08/DA9A9374-Edit.jpg",
+        "/assets/images/2018/08/DA9A9402-Edit.jpg",
+        "/assets/images/2018/08/DA9A9419-Edit.jpg",
+        "/assets/images/2018/08/DA9A9433-Edit.jpg",
+        "/assets/images/2018/08/DA9A9447.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-with-terrace.jpg"
+      ]
+    },
+    {
+      "title": "Duplex with Terrace",
+      "slug": "duplex-loft-apartment-with-terrace",
+      "type": "room",
+      "section": "rooms",
+      "original_url": "https://theboxhousehotel.com/room/duplex-loft-apartment-with-terrace/",
+      "markdown": "content/rooms/duplex-loft-apartment-with-terrace.md",
+      "featured_image": null,
+      "image_count": 12,
+      "images": [
+        "/assets/images/2018/08/CVD1.jpg",
+        "/assets/images/2018/08/CVD4.jpg",
+        "/assets/images/2018/08/CVD5.jpg",
+        "/assets/images/2018/08/DA9A9390-Edit-e1542213890485.jpg",
+        "/assets/images/2018/08/Duplex-Apartment-with-Patio.jpg",
+        "/assets/images/2018/08/One-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Studio-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Apartment-with-Terrace.jpg",
+        "/assets/images/2018/08/Two-Bedroom-Duplex-Apartment.jpg",
+        "/assets/images/2018/08/duplex-loft-3-e1542217174186.jpg",
+        "/assets/images/2018/08/duplex-with-terrace-2.jpg",
+        "/assets/images/2018/08/duplex-with-terrace-6-1.jpg"
+      ]
+    },
+    {
+      "title": "Special Offers",
+      "slug": "the-long-haul",
+      "type": "specialoffer",
+      "section": "offers",
+      "original_url": "https://theboxhousehotel.com/specialoffer/the-long-haul/",
+      "markdown": "content/offers/the-long-haul.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/02/BH-Expended-stay.jpg",
+        "/assets/images/2018/02/long-haul.jpg",
+        "/assets/images/2018/02/thumbnail-brooklynromance-1.jpg",
+        "/assets/images/2019/04/loyalty-promo.jpg"
+      ]
+    },
+    {
+      "title": "Special Offers",
+      "slug": "brooklyn-romance",
+      "type": "specialoffer",
+      "section": "offers",
+      "original_url": "https://theboxhousehotel.com/specialoffer/brooklyn-romance/",
+      "markdown": "content/offers/brooklyn-romance.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/02/BH-Expended-stay.jpg",
+        "/assets/images/2018/02/long-haul.jpg",
+        "/assets/images/2018/02/thumbnail-brooklynromance-1.jpg",
+        "/assets/images/2019/04/loyalty-promo.jpg"
+      ]
+    },
+    {
+      "title": "Special Offers",
+      "slug": "weekday-offer",
+      "type": "specialoffer",
+      "section": "offers",
+      "original_url": "https://theboxhousehotel.com/specialoffer/weekday-offer/",
+      "markdown": "content/offers/weekday-offer.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/02/BH-Expended-stay.jpg",
+        "/assets/images/2018/02/long-haul.jpg",
+        "/assets/images/2018/02/thumbnail-brooklynromance-1.jpg",
+        "/assets/images/2019/04/loyalty-promo.jpg"
+      ]
+    },
+    {
+      "title": "Special Offers",
+      "slug": "loyalty-promotion",
+      "type": "specialoffer",
+      "section": "offers",
+      "original_url": "https://theboxhousehotel.com/specialoffer/loyalty-promotion/",
+      "markdown": "content/offers/loyalty-promotion.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/02/BH-Expended-stay.jpg",
+        "/assets/images/2018/02/long-haul.jpg",
+        "/assets/images/2018/02/thumbnail-brooklynromance-1.jpg",
+        "/assets/images/2019/04/loyalty-promo.jpg"
+      ]
+    },
+    {
+      "title": "City View Loft With Terrace • The Box House",
+      "slug": "city-view-loft-with-terrace",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/city-view-loft-with-terrace/",
+      "markdown": "content/portfolio/city-view-loft-with-terrace.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/city-view-loft-with-terrace-5-180x120.jpg",
+        "/assets/images/2018/03/city-view-loft-with-terrace-5-449x300.jpg",
+        "/assets/images/2018/03/city-view-loft-with-terrace-5-768x513.jpg",
+        "/assets/images/2018/03/city-view-loft-with-terrace-5.jpg"
+      ]
+    },
+    {
+      "title": "Common Area 1 • The Box House",
+      "slug": "common-area-1",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/common-area-1/",
+      "markdown": "content/portfolio/common-area-1.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-common-area-1-180x120.jpg",
+        "/assets/images/2018/03/hnh-common-area-1-449x300.jpg",
+        "/assets/images/2018/03/hnh-common-area-1-768x513.jpg",
+        "/assets/images/2018/03/hnh-common-area-1.jpg"
+      ]
+    },
+    {
+      "title": "Common Area 2 • The Box House",
+      "slug": "common-area-2",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/common-area-2/",
+      "markdown": "content/portfolio/common-area-2.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-common-area-2-180x120.jpg",
+        "/assets/images/2018/03/hnh-common-area-2-449x300.jpg",
+        "/assets/images/2018/03/hnh-common-area-2-768x513.jpg",
+        "/assets/images/2018/03/hnh-common-area-2.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-common-area • The Box House",
+      "slug": "hnh-common-area",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-common-area/",
+      "markdown": "content/portfolio/hnh-common-area.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-common-area-4-180x120.jpg",
+        "/assets/images/2018/03/hnh-common-area-4-449x300.jpg",
+        "/assets/images/2018/03/hnh-common-area-4-768x513.jpg",
+        "/assets/images/2018/03/hnh-common-area-4.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-common-area-5 • The Box House",
+      "slug": "hnh-common-area-5",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-common-area-5/",
+      "markdown": "content/portfolio/hnh-common-area-5.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-common-area-5-180x120.jpg",
+        "/assets/images/2018/03/hnh-common-area-5-449x300.jpg",
+        "/assets/images/2018/03/hnh-common-area-5-768x513.jpg",
+        "/assets/images/2018/03/hnh-common-area-5.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-common-area-6 • The Box House",
+      "slug": "hnh-common-area-6",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-common-area-6/",
+      "markdown": "content/portfolio/hnh-common-area-6.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-common-area-6-180x120.jpg",
+        "/assets/images/2018/03/hnh-common-area-6-449x300.jpg",
+        "/assets/images/2018/03/hnh-common-area-6-768x513.jpg",
+        "/assets/images/2018/03/hnh-common-area-6.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-common-area-8 • The Box House",
+      "slug": "hnh-common-area-8",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-common-area-8/",
+      "markdown": "content/portfolio/hnh-common-area-8.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-common-area-8-180x120.jpg",
+        "/assets/images/2018/03/hnh-common-area-8-449x300.jpg",
+        "/assets/images/2018/03/hnh-common-area-8-768x513.jpg",
+        "/assets/images/2018/03/hnh-common-area-8.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-common-area-17 • The Box House",
+      "slug": "hnh-common-area-17",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-common-area-17/",
+      "markdown": "content/portfolio/hnh-common-area-17.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-common-area-17-180x120.jpg",
+        "/assets/images/2018/03/hnh-common-area-17-449x300.jpg",
+        "/assets/images/2018/03/hnh-common-area-17-768x513.jpg",
+        "/assets/images/2018/03/hnh-common-area-17.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-penthouse-loft-with-roofdeck-3 • The Box House",
+      "slug": "hnh-penthouse-loft-with-roofdeck-3",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-penthouse-loft-with-roofdeck-3/",
+      "markdown": "content/portfolio/hnh-penthouse-loft-with-roofdeck-3.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-3-180x120.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-3-449x300.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-3-768x513.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-3.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-penthouse-loft-with-roofdeck-5 • The Box House",
+      "slug": "hnh-penthouse-loft-with-roofdeck-5",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-penthouse-loft-with-roofdeck-5/",
+      "markdown": "content/portfolio/hnh-penthouse-loft-with-roofdeck-5.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-5-180x120.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-5-449x300.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-5-768x513.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-5.jpg"
+      ]
+    },
+    {
+      "title": "Hnh-standardloft-10 • The Box House",
+      "slug": "hnh-standardloft-10",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/hnh-standardloft-10/",
+      "markdown": "content/portfolio/hnh-standardloft-10.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/hnh-standardloft-10-180x120.jpg",
+        "/assets/images/2018/03/hnh-standardloft-10-449x300.jpg",
+        "/assets/images/2018/03/hnh-standardloft-10-768x513.jpg",
+        "/assets/images/2018/03/hnh-standardloft-10.jpg"
+      ]
+    },
+    {
+      "title": "Loft-suite-2 • The Box House",
+      "slug": "loft-suite-2",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/loft-suite-2/",
+      "markdown": "content/portfolio/loft-suite-2.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/loft-suite-2-180x120.jpg",
+        "/assets/images/2018/03/loft-suite-2-449x300.jpg",
+        "/assets/images/2018/03/loft-suite-2-768x513.jpg",
+        "/assets/images/2018/03/loft-suite-2.jpg"
+      ]
+    },
+    {
+      "title": "2br-penthouse-4.jpg • The Box House",
+      "slug": "2br-penthouse-4-jpg",
+      "type": "portfolio_item",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_item/2br-penthouse-4-jpg/",
+      "markdown": "content/portfolio/2br-penthouse-4-jpg.md",
+      "featured_image": null,
+      "image_count": 4,
+      "images": [
+        "/assets/images/2018/03/2br-penthouse-4-180x120.jpg",
+        "/assets/images/2018/03/2br-penthouse-4-449x300.jpg",
+        "/assets/images/2018/03/2br-penthouse-4-768x513.jpg",
+        "/assets/images/2018/03/2br-penthouse-4.jpg"
+      ]
+    },
+    {
+      "title": "Gallery • The Box House",
+      "slug": "gallery",
+      "type": "portfolio_grid",
+      "section": "portfolio",
+      "original_url": "https://theboxhousehotel.com/portfolio_grid/gallery/",
+      "markdown": "content/portfolio/gallery.md",
+      "featured_image": null,
+      "image_count": 16,
+      "images": [
+        "/assets/images/2018/03/1brpenthousewithroofdeck-1-970x566.jpg",
+        "/assets/images/2018/03/1brpenthousewithroofdeck-2-970x566.jpg",
+        "/assets/images/2018/03/1brpenthousewithroofdeck-3-970x566.jpg",
+        "/assets/images/2018/03/2br-penthouse-4.jpg",
+        "/assets/images/2018/03/city-view-loft-with-terrace-5.jpg",
+        "/assets/images/2018/03/hnh-common-area-1.jpg",
+        "/assets/images/2018/03/hnh-common-area-17.jpg",
+        "/assets/images/2018/03/hnh-common-area-2.jpg",
+        "/assets/images/2018/03/hnh-common-area-4.jpg",
+        "/assets/images/2018/03/hnh-common-area-5.jpg",
+        "/assets/images/2018/03/hnh-common-area-6.jpg",
+        "/assets/images/2018/03/hnh-common-area-8.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-3.jpg",
+        "/assets/images/2018/03/hnh-penthouse-loft-with-roofdeck-5.jpg",
+        "/assets/images/2018/03/hnh-standardloft-10.jpg",
+        "/assets/images/2018/03/loft-suite-2.jpg"
+      ]
+    }
+  ]
+}

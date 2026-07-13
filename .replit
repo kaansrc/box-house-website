@@ -1,0 +1,23 @@
+# Replit configuration for The Box House Hotel site.
+# Static pages are served by a tiny Node server (server.js) that also handles
+# the inquiry form. No build step / no dependencies to install.
+run = "npm start"
+entrypoint = "server.js"
+modules = ["nodejs-22"]
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+HOST = "0.0.0.0"
+PORT = "8080"
+
+# Map the app port to the public web port.
+[[ports]]
+localPort = 8080
+externalPort = 80
+
+# "Deploy" in Replit runs the Node server. Set RESEND_API_KEY etc. as Secrets.
+[deployment]
+deploymentTarget = "autoscale"
+run = ["sh", "-c", "npm start"]

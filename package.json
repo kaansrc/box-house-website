@@ -1,0 +1,14 @@
+{
+  "name": "box-house-hotel-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Box House Hotel — static marketing site with a Resend-backed inquiry form.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}

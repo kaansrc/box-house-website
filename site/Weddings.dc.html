@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weddings • The Box House Hotel</title>
+<meta name="description" content="Weddings at Box House Events — an all-inclusive rooftop venue above the Brooklyn skyline with in-house planning, design and Michelin-recognized catering.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://theboxhousehotel.com/weddings/">
+<meta name="theme-color" content="#141210">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/theme/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/theme/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Box House Hotel">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Weddings • The Box House Hotel">
+<meta property="og:description" content="Weddings at Box House Events — an all-inclusive rooftop venue above the Brooklyn skyline with in-house planning, design and Michelin-recognized catering.">
+<meta property="og:image" content="https://theboxhousehotel.com/assets/events/home/5.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Weddings • The Box House Hotel">
+<meta name="twitter:description" content="Weddings at Box House Events — an all-inclusive rooftop venue above the Brooklyn skyline with in-house planning, design and Michelin-recognized catering.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F7F3EA; font-family:'Archivo',sans-serif; color:#23211C; }
+  a { color:inherit; text-decoration:none; }
+  a:hover { opacity:0.75; }
+  .btn-avail { transition:background .15s ease, color .15s ease; }
+  .btn-avail:hover { background:#C8A87A; color:#141210; opacity:1; }
+  a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #C8A87A;outline-offset:2px;}
+
+
+
+
+
+
+
+  /* === STICKY-NAV + FORMS === */
+  .snav{position:fixed;top:-120px;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;gap:26px;background:rgba(13,12,10,0.97);color:#E9E2D3;padding:12px 56px;transition:top .3s ease;box-shadow:0 2px 16px rgba(0,0,0,0.3);}
+  .snav.on{top:0;}
+  .snav-logo img{width:54px;display:block;}
+  #inquire,#message{scroll-margin-top:90px;}
+  .f-lab{font:600 11px 'Archivo',sans-serif;letter-spacing:0.16em;text-transform:uppercase;color:#7F5E35;margin-bottom:8px;}
+  .f-dark .f-lab{color:#C8A87A;}
+  .f-inp{display:block;width:100%;box-sizing:border-box;background:#FFFFFF;border:1px solid #E3DAC8;padding:13px 14px;font:400 15px 'Archivo',sans-serif;color:#23211C;border-radius:0;}
+  .f-inp:focus{outline:none;border-color:#7F5E35;}
+  .f-dark .f-inp{background:#1E1B17;border:1px solid #3A352D;color:#E9E2D3;color-scheme:dark;}
+  .f-dark .f-inp:focus{border-color:#C8A87A;}
+  .f-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  .f-full{grid-column:1/-1;}
+  textarea.f-inp{resize:vertical;min-height:130px;font-family:'Archivo',sans-serif;}
+  .f-btn{background:#C8A87A;color:#141210;border:0;cursor:pointer;font:600 13px 'Archivo',sans-serif;letter-spacing:0.12em;text-transform:uppercase;padding:16px 44px;}
+  .f-btn:hover{opacity:0.85;}
+
+/* === MOBILE-INJECT (responsive) === */
+img{max-width:100%;}
+.mnav-toggle{display:none;}
+.menu-book{display:none;}
+@media (max-width:1024px){
+  *{box-sizing:border-box;}
+  html{overflow-x:hidden !important;}
+  body{overflow-x:hidden !important;max-width:100% !important;width:100% !important;margin:0 !important;}
+  body > div,div[style*="min-width:1180px"]{min-width:0 !important;width:100% !important;max-width:100% !important;box-sizing:border-box !important;overflow-x:hidden !important;}
+  input,select,textarea{max-width:100% !important;}
+  [style*="max-width:780px"],[style*="max-width:800px"],[style*="max-width:820px"],[style*="max-width:840px"],[style*="max-width:680px"],[style*="max-width:720px"],[style*="max-width:640px"]{max-width:100% !important;margin-left:auto !important;margin-right:auto !important;}
+  div[style*="padding:72px 56px"],div[style*="padding:88px 56px"],div[style*="padding:80px 56px"],div[style*="padding:64px 56px"],div[style*="padding:52px 56px"],div[style*="padding:56px 56px"]{padding-left:20px !important;padding-right:20px !important;}
+  div[style*="grid-template-columns"]{grid-template-columns:1fr !important;}
+  [style*="56px"]{padding-left:22px !important;padding-right:22px !important;}
+  [style*="padding:72px 64px"]{padding:44px 22px !important;}
+  [style*="padding:72px"]{padding-left:22px !important;padding-right:22px !important;}
+  [style*="padding:88px 56px"],[style*="padding:80px 56px"],[style*="padding:64px 56px"]{padding-top:52px !important;padding-bottom:52px !important;}
+  div[style*="position:relative; height:780px"]{height:76vh !important;min-height:470px;}
+  div[style*="position:relative; height:560px"],div[style*="position:relative; height:520px"],div[style*="position:relative; height:460px"]{height:58vh !important;min-height:380px;}
+  div[style*="position:relative; height:"] > img{height:100% !important;}
+  div[style*="position:absolute"][style*="left:56px"]{left:22px !important;right:22px !important;max-width:none !important;text-shadow:0 1px 12px rgba(20,18,16,0.62);}
+  div[style*="width:340px"][style*="#1E1B17"]{display:none !important;}
+  div[style*="grid-template-columns"] > img{height:auto !important;max-height:72vh;}
+  div[style*="grid-auto-rows:300px"]{grid-auto-rows:auto !important;grid-auto-flow:row !important;}
+  div[style*="grid-auto-rows:300px"] > img{grid-column:auto !important;grid-row:auto !important;height:auto !important;max-height:none !important;}
+  div[style*="grid-template-columns:1fr 1.2fr"] > img,div[style*="grid-template-columns:1fr 1.15fr"] > img{order:-1 !important;}
+  div[style*="gap:64px"]{gap:16px 40px !important;}
+  div[style*="gap:36px"]{gap:10px 28px !important;}
+  [style*="font:400 60px"]{font-size:33px !important;line-height:1.12 !important;}
+  [style*="font:400 52px"],[style*="font:400 48px"],[style*="font:400 46px"]{font-size:29px !important;line-height:1.14 !important;}
+  [style*="font:400 44px"],[style*="font:400 42px"],[style*="font:400 40px"],[style*="font:400 38px"]{font-size:26px !important;}
+  [style*="font:400 34px"],[style*="font:400 32px"]{font-size:23px !important;}
+  div[style*="display:flex"][style*="justify-content:center"],div[style*="display:flex"][style*="justify-content:space-between"],div[style*="display:flex"][style*="gap:64px"],div[style*="display:flex"][style*="gap:36px"],div[style*="display:flex"][style*="gap:32px"],div[style*="display:flex"][style*="gap:28px"],div[style*="display:flex"][style*="gap:26px"],div[style*="display:flex"][style*="gap:24px"]{flex-wrap:wrap !important;}
+  [data-mnav]{padding:14px 20px !important;align-items:center !important;}
+  [data-mnav] > a:first-child{margin-right:auto !important;}
+  [data-mnav] > a[href*="webrez"]{display:inline-block !important;padding:9px 13px !important;font-size:10px !important;letter-spacing:0.08em !important;white-space:nowrap;}
+  .mnav-toggle{display:flex !important;align-items:center;justify-content:center;width:42px;height:42px;background:transparent;border:0;color:#E9E2D3;font-size:24px;line-height:1;cursor:pointer;padding:0;margin-left:6px;}
+  .mnav-links{display:none !important;}
+  [data-mnav].mnav-open .mnav-links{display:flex !important;flex-direction:column;align-items:stretch;position:fixed !important;top:0;left:0;right:0;background:#141210;padding:64px 26px 30px !important;gap:2px !important;z-index:1000;}
+  [data-mnav].mnav-open .mnav-links a{border-bottom:1px solid #2C2823 !important;padding:15px 0 !important;font-size:14px !important;color:#E9E2D3 !important;text-align:left !important;letter-spacing:0.12em;}
+  [data-mnav].mnav-open .mnav-links a.menu-book{display:block !important;background:#C8A87A !important;color:#141210 !important;border-bottom:none !important;margin-bottom:12px;padding:14px !important;text-align:center !important;}
+  [data-mnav].mnav-open .mnav-toggle{position:fixed !important;top:12px;right:16px;z-index:1001 !important;color:#E9E2D3;}
+}
+.menu-book{display:none;}
+@media (max-width:520px){
+  [style*="font:400 60px"]{font-size:28px !important;}
+  [style*="font:400 52px"],[style*="font:400 48px"],[style*="font:400 46px"]{font-size:25px !important;}
+}
+/* === /MOBILE-INJECT === */
+@media (max-width:1024px){
+  .snav{padding:10px 18px !important;gap:12px;}
+  .snav > a[href*="webrez"]{display:inline-block !important;font-size:11px !important;padding:10px 14px !important;}
+  .f-grid{grid-template-columns:1fr;}
+}
+.snav-logo{flex:0 0 auto;}
+[data-mnav] > a:first-child{flex:0 0 auto;}
+[data-mnav] > a[href*="webrez"]{flex:0 0 auto;white-space:nowrap;}
+@media (min-width:1025px) and (max-width:1179px){
+  div[style*="min-width:1180px"]{min-width:0 !important;}
+  .snav{padding:12px 24px !important;gap:14px !important;}
+  [data-mnav]{padding:22px 24px !important;gap:14px !important;}
+  .mnav-links{gap:12px !important;font-size:11px !important;letter-spacing:0.1em !important;}
+  [data-mnav] > a:first-child img{width:60px !important;}
+  .snav-logo img{width:48px !important;}
+  [data-mnav] > a[href*="webrez"]{padding:11px 16px !important;font-size:11px !important;}
+}
+
+  div[style*="position:absolute"] div[style*="letter-spacing:0.28em"],div[style*="position:absolute"] div[style*="letter-spacing:0.3em"]{text-shadow:0 1px 14px rgba(20,18,16,0.85),0 0 3px rgba(20,18,16,0.55);}
+</style>
+</head>
+<body>
+<div class="snav" data-mnav="1">
+  <a class="snav-logo" href="/"><img src="/assets/images/theme/footer-boxhouse.webp" alt="The Box House Hotel"></a>
+  <button class="mnav-toggle" aria-label="Menu" aria-expanded="false">☰</button><div class="mnav-links" role="navigation" aria-label="Primary" style="display:flex; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase;"><a class="menu-book" href="https://secure.webrez.com/hotel/1091/" target="_blank" rel="noopener" style="background:#C8A87A; color:#141210; padding:12px 18px; text-align:center; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase;">Book Now</a>
+            <a href="/rooms/">Accommodations</a><a href="/about-the-box-house/">About</a><a href="/gallery/">Gallery</a><a href="/dining/">Dining</a><a href="/special-offers/">Offers</a><a href="/events/">Rooftop</a><a href="/box-house-events/" aria-current="page" style="color:#C8A87A; border-bottom:1px solid #C8A87A; padding-bottom:3px;">Events</a><a href="/contact/">Contact</a>
+          </div>
+  <a href="https://secure.webrez.com/hotel/1091/" target="_blank" rel="noopener" style="background:#C8A87A; color:#141210; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:11px 22px;">Book Now</a>
+</div>
+<div style="min-width:1180px;">
+
+      <div style="display:flex; justify-content:space-between; align-items:center; background:#0D0C0A; color:#A79F8F; padding:10px 56px; font:500 13px 'Archivo',sans-serif;">
+        <div>77 Box Street, Greenpoint, Brooklyn</div>
+        <div style="display:flex; gap:28px; align-items:center;">
+          <div style="color:#C8A87A;">Best rate when you book direct</div>
+          <a href="tel:+17183833800" style="font-weight:600; color:#E9E2D3;">718.383.3800</a>
+        </div>
+      </div>
+
+
+      <div style="position:relative; height:460px;">
+        <img src="/assets/events/home/5.webp" alt="Wedding reception at Box House Events" style="display:block; width:100%; height:460px; object-fit:cover;">
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(20,18,16,0.7) 0%, rgba(20,18,16,0.25) 45%, rgba(20,18,16,0.75) 100%);"></div>
+
+        <div data-mnav="1" style="position:absolute; top:0; left:0; right:0; display:flex; align-items:center; justify-content:space-between; padding:22px 56px; color:#E9E2D3;">
+          <a href="/"><img loading="lazy" decoding="async" src="/assets/images/theme/footer-boxhouse.webp" alt="The Box House Hotel" style="width:76px;"></a>
+          <button class="mnav-toggle" aria-label="Menu" aria-expanded="false">☰</button><div class="mnav-links" role="navigation" aria-label="Primary" style="display:flex; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase;"><a class="menu-book" href="https://secure.webrez.com/hotel/1091/" target="_blank" rel="noopener" style="background:#C8A87A; color:#141210; padding:12px 18px; text-align:center; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase;">Book Now</a>
+            <a href="/rooms/">Accommodations</a><a href="/about-the-box-house/">About</a><a href="/gallery/">Gallery</a><a href="/dining/">Dining</a><a href="/special-offers/">Offers</a><a href="/events/">Rooftop</a><a href="/box-house-events/" aria-current="page" style="color:#C8A87A; border-bottom:1px solid #C8A87A; padding-bottom:3px;">Events</a><a href="/contact/">Contact</a>
+          </div>
+          <a href="https://secure.webrez.com/hotel/1091/" target="_blank" rel="noopener" style="background:#C8A87A; color:#141210; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 24px;">Book Now</a>
+        </div>
+        <div style="position:absolute; left:56px; right:56px; bottom:56px; color:#E9E2D3;">
+          <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.28em; text-transform:uppercase; color:#C8A87A; margin-bottom:14px;">Box House Events</div>
+          <h1 style="font:400 52px/1.1 'Libre Caslon Text',serif; max-width:800px; margin:0;">Weddings</h1>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#D9D2C2; max-width:640px; margin-top:16px;">Backed by Brooklyn's Room 11 Hospitality — an all-inclusive rooftop wedding, handled end to end by one family.</div>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px 40px; padding:20px 56px; background:#F7F3EA; border-bottom:1px solid #E3DAC8; font:500 12px 'Archivo',sans-serif; letter-spacing:0.16em; text-transform:uppercase; color:#6B6455;">
+        <a href="/box-house-events/">Overview</a>
+        <a href="/weddings/" aria-current="page" style="color:#7F5E35; border-bottom:1px solid #7F5E35; padding-bottom:4px;">Weddings</a>
+        <a href="/corporate-events/">Corporate</a>
+        <a href="/private-events/">Private Events</a>
+        <a href="/madre-catering/">Catering</a>
+        <a href="/room-11-productions/">Production</a>
+        <a href="/our-team/">Team</a>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1.2fr 1fr; align-items:center;">
+        <img loading="lazy" decoding="async" src="/assets/events/gallery/10.webp" alt="First dance on the rooftop" style="display:block; width:100%; height:600px; object-fit:cover;">
+        <div style="padding:72px 64px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:14px;">All-inclusive rooftop weddings</div>
+          <div style="font:400 40px/1.15 'Libre Caslon Text',serif; margin-bottom:18px;">Backed by Brooklyn's Room 11 Hospitality</div>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#6B6455; margin-bottom:24px;">Step into our all-inclusive rooftop venue, where our dedicated team will expertly plan and execute your dream wedding. Your event is planned and run by Room 11 Hospitality, our Brooklyn family of hospitality brands — one family, one standard, from your first tour to the last song of the night.</div>
+          <a href="#inquire" style="background:#C8A87A; color:#141210; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:15px 28px; display:inline-block;">Request a proposal</a>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:14px 40px; padding:34px 56px; border-top:1px solid #E3DAC8; border-bottom:1px solid #E3DAC8; font:500 13px 'Archivo',sans-serif; letter-spacing:0.06em; color:#6B6455;">
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> 10,000 sq ft</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> Up to 400 guests</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> Retractable glass roof</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> Seamless climate control</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> Wrap-around marble bar</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> Four restrooms</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> ADA accessible</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> Three elevators</div>
+        <div style="display:flex; align-items:center; gap:10px;"><span style="color:#7F5E35;">✦</span> Sliding glass windows</div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1.2fr; align-items:center; background:#EFE8D8;">
+        <div style="padding:72px 64px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:14px;">What's included</div>
+          <div style="font:400 40px/1.15 'Libre Caslon Text',serif; margin-bottom:18px;">What we offer as an all-inclusive venue</div>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#6B6455; margin-bottom:26px;">One transparent package covers the details that matter most — so you can focus on the celebration, not the logistics.</div>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px 28px; font:400 15px/1.5 'Archivo',sans-serif; color:#6B6455;">
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> Expert planners &amp; designers</div>
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> In-house catering and servers</div>
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> Premium open bar options</div>
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> Tables and chairs</div>
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> Flatware &amp; glassware</div>
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> Votive candles</div>
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> Guest room blocks</div>
+            <div style="display:flex; gap:12px;"><span style="color:#7F5E35;">✓</span> Day-of coordination</div>
+          </div>
+        </div>
+        <img loading="lazy" decoding="async" src="/assets/events/gallery/11.webp" alt="Banquet table set under greenery" style="display:block; width:100%; height:640px; object-fit:cover;">
+      </div>
+
+      <div style="padding:88px 56px;">
+        <div style="text-align:center; max-width:720px; margin:0 auto 48px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:14px;">One family, one standard</div>
+          <div style="font:400 38px 'Libre Caslon Text',serif; margin-bottom:18px;">We handle it end to end</div>
+          <div style="font:400 16px/1.8 'Archivo',sans-serif; color:#6B6455;">Michelin-recognized catering, full planning and day-of coordination, in-house production and room blocks for your guests — all delivered by Room 11 Hospitality.</div>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:24px;">
+          <div style="background:#FFFFFF; border:1px solid #E3DAC8; padding:34px;">
+            <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.22em; text-transform:uppercase; color:#7F5E35; margin-bottom:12px;">Catering</div>
+            <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">MADRE</div>
+            <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">Michelin-recognized catering with seasonal menus that go far beyond typical event fare.</div>
+          </div>
+          <div style="background:#FFFFFF; border:1px solid #E3DAC8; padding:34px;">
+            <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.22em; text-transform:uppercase; color:#7F5E35; margin-bottom:12px;">Planning</div>
+            <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">Box House Events</div>
+            <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">In-house planners and designers, plus day-of coordination, from first tour to last dance.</div>
+          </div>
+          <div style="background:#FFFFFF; border:1px solid #E3DAC8; padding:34px;">
+            <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.22em; text-transform:uppercase; color:#7F5E35; margin-bottom:12px;">Production</div>
+            <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">Room 11 Productions</div>
+            <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">Sound, lighting and video handled in-house for a seamless production, start to finish.</div>
+          </div>
+          <div style="background:#FFFFFF; border:1px solid #E3DAC8; padding:34px;">
+            <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.22em; text-transform:uppercase; color:#7F5E35; margin-bottom:12px;">Stay</div>
+            <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">Room Blocks</div>
+            <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">Guest room blocks across three partner hotels: The Box House Hotel, Henry Norman Hotel and Franklin Guesthouse.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#EFE8D8; padding:24px 56px 88px;">
+        <div style="text-align:center; padding:64px 0 40px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:14px;">The gallery</div>
+          <div style="font:400 34px 'Libre Caslon Text',serif;">Weddings at the Box House</div>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px;">
+          <img loading="lazy" decoding="async" src="/assets/events/wedding/2.webp" alt="Wedding tablescape with florals" style="width:100%; height:360px; object-fit:cover; display:block;">
+          <img loading="lazy" decoding="async" src="/assets/events/wedding/3.webp" alt="Floral wedding cake" style="width:100%; height:360px; object-fit:cover; display:block;">
+          <img loading="lazy" decoding="async" src="/assets/events/wedding/4.webp" alt="Celebration on the rooftop" style="width:100%; height:360px; object-fit:cover; display:block;">
+          <img loading="lazy" decoding="async" src="/assets/events/wedding/5.webp" alt="Long banquet table setting" style="width:100%; height:360px; object-fit:cover; display:block;">
+          <img loading="lazy" decoding="async" src="/assets/events/gallery/12.webp" alt="Newlyweds with Manhattan skyline" style="width:100%; height:360px; object-fit:cover; display:block;">
+          <img loading="lazy" decoding="async" src="/assets/events/gallery/2.webp" alt="Floral ceremony arch" style="width:100%; height:360px; object-fit:cover; display:block;">
+        </div>
+      </div>
+
+      <div style="padding:88px 56px 64px; text-align:center;">
+        <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:14px;">Awards &amp; Recognition</div>
+        <div style="font:400 34px 'Libre Caslon Text',serif; margin-bottom:44px;">A handpicked Brooklyn wedding venue</div>
+        <div style="display:flex; justify-content:center; align-items:center; gap:56px; flex-wrap:wrap;">
+          <img loading="lazy" decoding="async" src="/assets/events/_awards/here-comes-the-guide-best-brooklyn-wedding-venue.webp" alt="Here Comes The Guide — Best Brooklyn Wedding Venue" style="height:116px; width:auto;">
+          <img loading="lazy" decoding="async" src="/assets/events/_awards/the-knot-best-of-weddings-2023.webp" alt="The Knot Best of Weddings 2023" style="height:116px; width:auto;">
+          <img loading="lazy" decoding="async" src="/assets/events/_awards/the-knot-best-of-weddings-hall-of-fame.webp" alt="The Knot Best of Weddings Hall of Fame" style="height:116px; width:auto;">
+          <img loading="lazy" decoding="async" src="/assets/events/_awards/weddingwire-couples-choice-awards-2023.webp" alt="WeddingWire Couples' Choice Awards 2023" style="height:116px; width:auto;">
+        </div>
+      </div>
+
+      <div style="padding:24px 56px 88px;">
+        <div style="text-align:center; margin-bottom:40px;">
+          <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:14px;">More event types</div>
+          <div style="font:400 32px 'Libre Caslon Text',serif;">Also at Box House Events</div>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:28px;">
+          <a href="/corporate-events/" style="display:block; border:1px solid #E3DAC8; background:#FFFFFF;">
+            <img loading="lazy" decoding="async" src="/assets/events/corporate/1.webp" alt="Corporate events" style="width:100%; height:260px; object-fit:cover; display:block;">
+            <div style="padding:30px;">
+              <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:12px;">Corporate</div>
+              <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">Meetings, launches &amp; fundraisers</div>
+              <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">Modern A/V, Wi-Fi and elevated catering on a fully retractable rooftop. <span style="color:#7F5E35;">Explore corporate&nbsp;→</span></div>
+            </div>
+          </a>
+          <a href="/private-events/" style="display:block; border:1px solid #E3DAC8; background:#FFFFFF;">
+            <img loading="lazy" decoding="async" src="/assets/events/socialevents/4.webp" alt="Private events" style="width:100%; height:260px; object-fit:cover; display:block;">
+            <div style="padding:30px;">
+              <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.26em; text-transform:uppercase; color:#7F5E35; margin-bottom:12px;">Private Events</div>
+              <div style="font:400 24px 'Libre Caslon Text',serif; margin-bottom:12px;">Celebrations of every kind</div>
+              <div style="font:400 15px/1.7 'Archivo',sans-serif; color:#6B6455;">Birthdays, showers, graduations and holiday parties, elevated. <span style="color:#7F5E35;">Explore private events&nbsp;→</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div style="background:#FFFFFF; padding:88px 56px;">
+        <div style="max-width:960px; margin:0 auto; text-align:center;">
+          <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.28em; text-transform:uppercase; color:#7F5E35; margin-bottom:14px;">See the Space</div>
+          <h2 style="font:400 40px/1.12 'Libre Caslon Text',serif; color:#211E19; margin:0 0 16px;">Take a Video Tour</h2>
+          <div style="max-width:620px; margin:0 auto 42px; font:400 16px/1.7 'Archivo',sans-serif; color:#5C554A;">Walk through the retractable rooftop where you'll say “I do,” then explore every corner of the venue in an interactive 360° tour.</div>
+          <div style="position:relative; width:100%; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:2px; box-shadow:0 22px 60px rgba(20,18,16,0.28);">
+            <iframe src="https://www.youtube.com/embed/onj1wSb9zEk" title="The Box House Hotel — Video Tour" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+          <div style="margin-top:38px;">
+            <a href="https://www.weddingwire.com/biz/the-box-house-hotel-brooklyn/5e47a187ec6249c7.html#gallery" target="_blank" rel="noopener" style="display:inline-block; border:1px solid #7F5E35; color:#7F5E35; font:600 13px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase; padding:16px 34px;">Explore the 3D Floorplan &amp; 360° Tour →</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="inquire" style="background:#141210; color:#E9E2D3; padding:80px 56px; text-align:center;">
+        <div style="font:500 12px 'Archivo',sans-serif; letter-spacing:0.3em; text-transform:uppercase; color:#C8A87A; margin-bottom:16px;">Box House Events · Room 11 Hospitality</div>
+        <div style="font:400 44px/1.15 'Libre Caslon Text',serif; max-width:720px; margin:0 auto 18px;">Let's plan your wedding</div>
+        <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#A79F8F; max-width:600px; margin:0 auto 34px;">Our in-house planning and Michelin-recognized catering teams are ready to bring your vision to life. Schedule a tour or request a proposal today.</div>
+        <form class="f-dark" action="/api/inquiry" method="POST" style="max-width:760px; margin:0 auto; text-align:left;">
+          <input type="hidden" name="formType" value="events">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="f-grid">
+            <label style="display:block"><span class="f-lab" style="display:block">First name</span><input class="f-inp" type="text" name="first_name" autocomplete="given-name" maxlength="60"></label>
+            <label style="display:block"><span class="f-lab" style="display:block">Last name</span><input class="f-inp" type="text" name="last_name" autocomplete="family-name" maxlength="60"></label>
+            <label style="display:block"><span class="f-lab" style="display:block">Email <span style="color:#C8A87A;">*</span></span><input class="f-inp" type="email" name="email" autocomplete="email" required maxlength="100" pattern="[^@\s]+@[^@\s]+\.[^@\s]{2,}" title="Enter a valid email address, e.g. name@example.com"></label>
+            <label style="display:block"><span class="f-lab" style="display:block">Phone</span><input class="f-inp" type="tel" name="phone" autocomplete="tel" inputmode="tel" maxlength="20" pattern="[0-9\(\)+\-. ]{7,20}" title="Enter a valid phone number (digits, spaces and + ( ) - . only)"></label>
+            <label style="display:block"><span class="f-lab" style="display:block">Type of event <span style="color:#C8A87A;">*</span></span><select class="f-inp" name="event_type" required><option selected>Wedding</option><option>Corporate Event</option><option>Private Event / Party</option><option>Other</option></select></label>
+            <label style="display:block"><span class="f-lab" style="display:block">Event date</span><input class="f-inp" type="date" name="event_date"></label>
+            <label class="f-full" style="display:block"><span class="f-lab" style="display:block">Message <span style="color:#C8A87A;">*</span></span><textarea class="f-inp" name="message" rows="5" required minlength="10" maxlength="2000"></textarea></label>
+          </div>
+          <div style="font:400 12px/1.7 'Archivo',sans-serif; color:#8D867A; margin:18px 0 24px;">By submitting this form, I consent to receive text messages from Box House Events regarding my inquiry, including pricing, availability, and follow-up communications. Consent is not a condition of booking. Msg &amp; data rates may apply. Msg frequency varies. Reply STOP to opt out at any time.</div>
+          <div style="text-align:center;"><button type="submit" class="f-btn">Send inquiry</button></div>
+        </form>
+        <div style="display:flex; justify-content:center; gap:16px; margin:20px 0 24px;">
+          <a href="tel:+17183956450" style="border:1px solid #C8A87A; color:#C8A87A; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:15px 32px;">Or call 718.395.6450</a>
+        </div>
+        <div style="font:400 14px 'Archivo',sans-serif; color:#8D867A;"><a href="mailto:hostyourevent@theboxhousehotel.com" style="color:inherit;">hostyourevent@theboxhousehotel.com</a> · 77 Box Street, Greenpoint, Brooklyn, NY 11222</div>
+      </div>
+
+      <div role="contentinfo" style="border-top:1px solid #3A352D; background:#141210; color:#E9E2D3; padding:56px 56px 36px; text-align:center;">
+        <a href="/"><img loading="lazy" decoding="async" src="/assets/images/theme/footer-boxhouse.webp" alt="The Box House Hotel" style="width:84px; margin-bottom:24px;"></a>
+        <div style="display:flex; justify-content:center; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:24px;">
+          <a href="/sitemap/">Sitemap</a><a href="/blog/">Blog</a><a href="/faq/">FAQ</a><a href="/accessibility/">Accessibility</a><a href="/press/">Press</a><a href="/employment-opportunities/">Employment</a><a href="/privacy-policy/">Privacy</a><a href="/cookie-policy/">Cookies</a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:32px; align-items:center; margin-bottom:24px;">
+          <a href="http://www.franklinguesthouse.com/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="/assets/images/theme/footer-franklinguesthouse.webp" alt="Franklin Guesthouse" style="height:44px;"></a>
+          <a href="http://www.henrynormanhotel.com/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="/assets/images/theme/hnh-logo_bottom.webp" alt="Henry Norman Hotel" style="height:44px;"></a>
+          <a href="http://www.habitat101brooklyn.com/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="/assets/images/theme/footer-habitat101.webp" alt="Habitat 101" style="height:44px;"></a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:24px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:20px; color:#A79F8F;">
+          <a href="https://www.facebook.com/theboxhousehotel" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://instagram.com/theboxhousehotel/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.tripadvisor.com/Hotel_Review-g60827-d2452838-Reviews-The_Box_House_Hotel-Brooklyn_New_York.html" target="_blank" rel="noopener">Tripadvisor</a>
+        </div>
+        <div style="font:400 13px 'Archivo',sans-serif; color:#8D867A;">77 Box Street, Brooklyn, NY 11222 · 718.383.3800</div>
+      </div>
+</div>
+
+
+
+
+
+
+
+<!-- MOBILE-INJECT-JS -->
+<script>
+function _fmtDate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function _localToday(){return _fmtDate(new Date());}
+function _formErr(f,msg){var e=f.querySelector('.f-err');if(!e){e=document.createElement('div');e.className='f-err';e.setAttribute('role','alert');e.style.cssText='margin:16px 0 0;font:500 14px \'Archivo\',sans-serif;text-align:center;color:'+(f.classList.contains('f-dark')?'#E7A98F':'#9E3B22')+';';var b=f.querySelector('.f-btn');(b&&b.parentNode?b.parentNode:f).appendChild(e);}e.textContent=msg;}
+document.addEventListener('click',function(e){
+  var b=e.target.closest('.mnav-toggle');
+  if(b){var box=b.closest('[data-mnav]');if(box){var op=box.classList.toggle('mnav-open');b.textContent=op?'✕':'☰';b.setAttribute('aria-expanded',op);}}
+});
+var sn=document.querySelector('.snav');
+if(sn){var st=function(){if(sn.classList.contains('mnav-open'))return;var y=window.scrollY||document.documentElement.scrollTop;sn.classList.toggle('on',y>360);};window.addEventListener('scroll',st,{passive:true});st();}
+document.querySelectorAll('input[name="event_date"]').forEach(function(i){i.min=_localToday();});
+document.querySelectorAll('form[action="/api/inquiry"]').forEach(function(f){
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var msg=f.querySelector('textarea[name="message"]');
+    if(msg&&msg.value.trim().length<10){
+      msg.setCustomValidity('Please tell us a bit more about your inquiry (at least 10 characters).');
+      msg.reportValidity();
+      msg.addEventListener('input',function(){msg.setCustomValidity('');},{once:true});
+      return;
+    }
+    var btn=f.querySelector('.f-btn');var _orig=btn?btn.textContent:'';if(btn){btn.disabled=true;btn.textContent='Sending\u2026';}
+    fetch(f.action,{method:'POST',headers:{'Accept':'application/json'},body:new URLSearchParams(new FormData(f))})
+      .then(function(r){return r.json().then(function(d){return{ok:r.ok&&d&&d.ok,error:d&&d.error};},function(){return{ok:false};});})
+      .then(function(res){if(!res.ok){if(btn){btn.disabled=false;btn.textContent=_orig;}return _formErr(f,res.error||'Something went wrong. Please try again or contact us by phone.');}f.innerHTML='<div role="status" style="text-align:center;padding:26px 0;"><div style="font:400 26px \'Libre Caslon Text\',serif;margin-bottom:10px;">Thank you \u2014 your message is on its way.</div><div style="font:400 15px \'Archivo\',sans-serif;opacity:0.75;">We typically reply within one business day.</div></div>';})
+      .catch(function(){if(btn){btn.disabled=false;btn.textContent=_orig;}_formErr(f,'Network error \u2014 please try again, or contact us by phone.');});
+  });
+});
+document.querySelectorAll('input[type="date"]').forEach(function(i){
+  i.style.cursor='pointer';
+  i.addEventListener('click',function(){if(i.showPicker){try{i.showPicker();}catch(e){}}});
+});
+var bi=document.getElementById('bw-in'),bo=document.getElementById('bw-out'),bg=document.getElementById('bw-go');
+if(bi&&bo&&bg){
+  var today=_localToday();
+  bi.min=today;bo.min=today;
+  var up=function(){
+    var u='https://secure.webrez.com/hotel/1091/';
+    if(bi.value&&bo.value)u+='?date_from='+bi.value+'&date_to='+bo.value;
+    bg.href=u;
+  };
+  bi.addEventListener('change',function(){
+    if(bi.value){bo.min=bi.value;
+      if(bo.value&&bo.value<=bi.value){var d=new Date(bi.value+'T00:00:00');d.setDate(d.getDate()+1);bo.value=_fmtDate(d);}}
+    up();
+  });
+  bo.addEventListener('change',up);
+}
+document.querySelectorAll('input[type="tel"]').forEach(function(i){
+  i.addEventListener('input',function(){
+    var v=i.value.replace(/[^0-9()+\-. ]/g,'');
+    if(v!==i.value)i.value=v;
+  });
+});
+document.querySelectorAll('input[name="first_name"],input[name="last_name"]').forEach(function(i){
+  i.addEventListener('input',function(){
+    var v=i.value.replace(/[0-9_@#$%^&*=+\[\]{}<>\\\/|~`!?;:"]/g,'');
+    if(v!==i.value)i.value=v;
+  });
+});
+document.querySelectorAll('.f-inp').forEach(function(i){
+  if(i.tagName==='SELECT')return;
+  i.addEventListener('blur',function(){
+    var v=i.value.replace(/\s{2,}/g,' ').trim();
+    if(v!==i.value)i.value=v;
+  });
+});
+</script>
+<!-- /MOBILE-INJECT-JS -->
+</body>
+</html>

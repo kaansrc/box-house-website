@@ -1,0 +1,181 @@
+[
+  {
+    "slug": "home",
+    "title": "Box House Events \u2014 Home",
+    "url": "https://www.theboxhousehotelevents.com/",
+    "headline": "Box House Events \u2014 Brooklyn's Most Unique Rooftop Venue",
+    "image_count": 17,
+    "local_images": [
+      "assets/events/home/1.jpg",
+      "assets/events/home/2.jpg",
+      "assets/events/home/3.jpg",
+      "assets/events/home/4.jpg",
+      "assets/events/home/5.jpg",
+      "assets/events/home/6.jpg",
+      "assets/events/home/7.jpg",
+      "assets/events/home/8.jpg",
+      "assets/events/home/9.jpg",
+      "assets/events/home/10.jpg",
+      "assets/events/home/11.jpg",
+      "assets/events/home/12.jpg",
+      "assets/events/home/13.jpg",
+      "assets/events/home/14.jpg",
+      "assets/events/home/15.jpg",
+      "assets/events/home/16.jpg",
+      "assets/events/home/17.jpg"
+    ],
+    "hero_image": "assets/events/home/6.jpg",
+    "award_badges": [],
+    "template_stock": false
+  },
+  {
+    "slug": "wedding",
+    "title": "Weddings \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/wedding",
+    "headline": "Weddings \u2014 Backed by Brooklyn's Room 11 Hospitality",
+    "image_count": 5,
+    "local_images": [
+      "assets/events/wedding/1.jpg",
+      "assets/events/wedding/2.jpg",
+      "assets/events/wedding/3.jpg",
+      "assets/events/wedding/4.jpg",
+      "assets/events/wedding/5.jpg"
+    ],
+    "hero_image": "assets/events/wedding/1.jpg",
+    "award_badges": [
+      "assets/events/_awards/here-comes-the-guide-best-brooklyn-wedding-venue.webp",
+      "assets/events/_awards/the-knot-best-of-weddings-2023.webp",
+      "assets/events/_awards/the-knot-best-of-weddings-hall-of-fame.webp",
+      "assets/events/_awards/weddingwire-couples-choice-awards-2023.webp"
+    ],
+    "template_stock": false
+  },
+  {
+    "slug": "corporate",
+    "title": "Corporate Events \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/corporate",
+    "headline": "Corporate Events \u2014 Meetings, product launches, fundraisers, and everything in between",
+    "image_count": 3,
+    "local_images": [
+      "assets/events/corporate/1.jpg",
+      "assets/events/corporate/2.jpg",
+      "assets/events/corporate/3.jpg"
+    ],
+    "hero_image": "assets/events/corporate/1.jpg",
+    "award_badges": [],
+    "template_stock": false
+  },
+  {
+    "slug": "socialevents",
+    "title": "Private / Social Events \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/socialevents",
+    "headline": "Private Events \u2014 World class catering and expert event planning",
+    "image_count": 4,
+    "local_images": [
+      "assets/events/socialevents/1.jpg",
+      "assets/events/socialevents/2.jpg",
+      "assets/events/socialevents/3.jpg",
+      "assets/events/socialevents/4.jpg"
+    ],
+    "hero_image": "assets/events/socialevents/4.jpg",
+    "award_badges": [],
+    "template_stock": false
+  },
+  {
+    "slug": "our-services",
+    "title": "Our Services \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/our-services",
+    "headline": "Our Services \u2014 Transforming Dreams into Reality (uncustomized template)",
+    "image_count": 7,
+    "local_images": [
+      "assets/events/our-services/1.jpg",
+      "assets/events/our-services/2.jpg",
+      "assets/events/our-services/3.jpg",
+      "assets/events/our-services/4.jpg",
+      "assets/events/our-services/5.jpg",
+      "assets/events/our-services/6.jpg",
+      "assets/events/our-services/7.jpg"
+    ],
+    "hero_image": "assets/events/our-services/1.jpg",
+    "award_badges": [],
+    "template_stock": true
+  },
+  {
+    "slug": "gallery",
+    "title": "Event Gallery \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/gallery",
+    "headline": "Event Gallery",
+    "image_count": 25,
+    "local_images": [
+      "assets/events/gallery/1.jpg",
+      "assets/events/gallery/2.jpg",
+      "assets/events/gallery/3.jpg",
+      "assets/events/gallery/4.jpg",
+      "assets/events/gallery/5.jpg",
+      "assets/events/gallery/6.jpg",
+      "assets/events/gallery/7.jpg",
+      "assets/events/gallery/8.jpg",
+      "assets/events/gallery/9.jpg",
+      "assets/events/gallery/10.jpg",
+      "assets/events/gallery/11.jpg",
+      "assets/events/gallery/12.jpg",
+      "assets/events/gallery/13.jpg",
+      "assets/events/gallery/14.jpg",
+      "assets/events/gallery/15.jpg",
+      "assets/events/gallery/16.jpg",
+      "assets/events/gallery/17.jpg",
+      "assets/events/gallery/18.jpg",
+      "assets/events/gallery/19.jpg",
+      "assets/events/gallery/20.jpg",
+      "assets/events/gallery/21.jpg",
+      "assets/events/gallery/22.jpg",
+      "assets/events/gallery/23.jpg",
+      "assets/events/gallery/24.jpg",
+      "assets/events/gallery/25.jpg"
+    ],
+    "hero_image": "assets/events/gallery/1.jpg",
+    "award_badges": [],
+    "template_stock": false
+  },
+  {
+    "slug": "faqs",
+    "title": "FAQs \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/faqs",
+    "headline": "FAQs (no published Q&A yet)",
+    "image_count": 0,
+    "local_images": [],
+    "hero_image": "",
+    "award_badges": [],
+    "template_stock": false
+  },
+  {
+    "slug": "our-team",
+    "title": "Our Team \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/our-team",
+    "headline": "Meet our Team",
+    "image_count": 5,
+    "local_images": [
+      "assets/events/our-team/1.jpg",
+      "assets/events/our-team/2.jpg",
+      "assets/events/our-team/3.jpg",
+      "assets/events/our-team/4.jpg",
+      "assets/events/our-team/5.jpg"
+    ],
+    "hero_image": "assets/events/our-team/1.jpg",
+    "award_badges": [],
+    "template_stock": false
+  },
+  {
+    "slug": "contact",
+    "title": "Contact \u2014 Box House Events",
+    "url": "https://www.theboxhousehotelevents.com/contact",
+    "headline": "Contact Us for booking your event",
+    "image_count": 1,
+    "local_images": [
+      "assets/events/contact/1.jpg"
+    ],
+    "hero_image": "assets/events/contact/1.jpg",
+    "award_badges": [],
+    "template_stock": false
+  }
+]

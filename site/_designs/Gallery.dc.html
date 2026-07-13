@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery • The Box House Hotel</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Archivo:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F7F3EA; font-family:'Archivo',sans-serif; color:#23211C; }
+  a { color:inherit; text-decoration:none; }
+  a:hover { opacity:0.75; }
+</style>
+</helmet>
+<div style="min-width:1180px;">
+
+      <div style="display:flex; justify-content:space-between; align-items:center; background:#0D0C0A; color:#A79F8F; padding:10px 56px; font:500 13px 'Archivo',sans-serif;">
+        <div>77 Box Street, Greenpoint, Brooklyn</div>
+        <div style="display:flex; gap:28px; align-items:center;">
+          <div style="color:#C8A87A;">Best rate when you book direct</div>
+          <a href="tel:7183833800" style="font-weight:600; color:#E9E2D3;">📞 {{ phone }}</a>
+        </div>
+      </div>
+
+
+      <div style="position:relative; height:460px;" data-screen-label="Gallery hero">
+        <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/hotel27-1-970x642.jpg" alt="Gallery" style="display:block; width:100%; height:460px; object-fit:cover;">
+        <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(20,18,16,0.7) 0%, rgba(20,18,16,0.25) 45%, rgba(20,18,16,0.75) 100%);"></div>
+        
+        <div style="position:absolute; top:0; left:0; right:0; display:flex; align-items:center; justify-content:space-between; padding:22px 56px; color:#E9E2D3;">
+          <a href="./Home.dc.html"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-boxhouse.png" alt="The Box House Hotel" style="width:76px;"></a>
+          <div style="display:flex; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase;">
+            <a href="./Accommodations.dc.html">Accommodations</a><a href="./About.dc.html">About</a><a href="./Gallery.dc.html" style="color:#C8A87A; border-bottom:1px solid #C8A87A; padding-bottom:3px;">Gallery</a><a href="./Dining.dc.html">Dining</a><a href="./Offers.dc.html">Offers</a><a href="./Rooftop.dc.html">Rooftop</a><a href="./Contact.dc.html">Contact</a>
+          </div>
+          <a href="{{ bookingUrl }}" target="_blank" style="background:#C8A87A; color:#141210; font:600 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:13px 24px;">Book Now</a>
+        </div>
+        <div style="position:absolute; left:56px; right:56px; bottom:56px; color:#E9E2D3;">
+          <div style="font:500 13px 'Archivo',sans-serif; letter-spacing:0.28em; text-transform:uppercase; color:#C8A87A; margin-bottom:14px;">A look inside</div>
+          <div style="font:400 52px/1.1 'Libre Caslon Text',serif; max-width:800px;">Gallery</div>
+          <div style="font:400 16px/1.7 'Archivo',sans-serif; color:#D9D2C2; max-width:640px; margin-top:16px;">Lofts, suites, common areas and the rooftop — believe the pictures; they are accurate.</div>
+        </div>
+      </div>
+      <div style="padding:64px 56px;" data-screen-label="Gallery grid">
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); grid-auto-rows:300px; grid-auto-flow:dense; gap:16px;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/common-area-11-1-970x647.jpg" alt="Common area" style="display:block; width:100%; height:100%; object-fit:cover; grid-column:span 2;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/11/4956637_SmartShoot_16cc7e00-a2dd-4368-a615-b645b3debb91-970x647.jpg" alt="Loft room" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/BXHentrance-1-970x625.jpg" alt="Hotel entrance" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/superior-with-balcony-5-970x647.jpg" alt="Superior with balcony" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/hotel27-1-970x642.jpg" alt="Loft interior" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/hotel04-1-970x643.jpg" alt="Loft interior" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/11-3-17-Boxhouse-Rooftop-23-1-970x647.jpg" alt="Rooftop" style="display:block; width:100%; height:100%; object-fit:cover; grid-column:span 2;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/1-bedroom-with-terrace-7-970x647.jpg" alt="One bedroom with terrace" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/IMG_1853-683x1024.jpg" alt="Stairwell" style="display:block; width:100%; height:100%; object-fit:cover; grid-row:span 2;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/common-area-5-970x647.jpg" alt="Common area" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/hallway-1-970x647.jpg" alt="Hallway" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/common-area-12-970x647.jpg" alt="Common area" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/1-bedroom-with-city-view-7-970x647.jpg" alt="One bedroom with city view" style="display:block; width:100%; height:100%; object-fit:cover; grid-column:span 2;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/2-bedroom-duplex-5-970x647.jpg" alt="Two bedroom duplex" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/1-bedroom-with-city-view-11-970x647.jpg" alt="City view" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/duplex-loft-with-patio-7-970x647.jpg" alt="Duplex loft with patio" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2018/08/box-house-hotel-rooftop-970x647.jpg" alt="Rooftop at dusk" style="display:block; width:100%; height:100%; object-fit:cover; grid-column:span 2;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/2-bedroom-with-terrace-8-970x647.jpg" alt="Two bedroom with terrace" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/superior-4-970x649.jpg" alt="Superior room" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/superior-city-view-with-balcony-7-970x647.jpg" alt="Superior city view" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/table1-970x652.jpg" alt="Detail — table" style="display:block; width:100%; height:100%; object-fit:cover;">
+          <img src="https://theboxhousehotel.com/wp-content/uploads/2019/02/bhpillow-970x647.jpg" alt="Detail — pillow" style="display:block; width:100%; height:100%; object-fit:cover;">
+        </div>
+      </div>
+
+      <div style="background:#141210; color:#E9E2D3; display:flex; justify-content:space-between; align-items:center; gap:32px; padding:56px;">
+        <div>
+          <div style="font:400 32px 'Libre Caslon Text',serif; margin-bottom:8px;">Best rate when you book direct</div>
+          <div style="font:400 15px 'Archivo',sans-serif; color:#A79F8F;">Direct-booking exclusive offers apply automatically on our website.</div>
+        </div>
+        <a href="{{ bookingUrl }}" target="_blank" style="flex:0 0 auto; background:#C8A87A; color:#141210; font:600 13px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; padding:18px 36px;">Check Availability</a>
+      </div>
+
+      <div style="border-top:1px solid #3A352D; background:#141210; color:#E9E2D3; padding:56px 56px 36px; text-align:center;">
+        <a href="./Home.dc.html"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-boxhouse.png" alt="The Box House Hotel" style="width:84px; margin-bottom:24px;"></a>
+        <div style="display:flex; justify-content:center; gap:26px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:24px;">
+          <a href="https://theboxhousehotel.com/sitemap/" target="_blank">Sitemap</a><a href="https://theboxhousehotel.com/faq/" target="_blank">FAQ</a><a href="https://theboxhousehotel.com/accessibility/" target="_blank">Accessibility</a><a href="https://theboxhousehotel.com/press/" target="_blank">Press</a><a href="https://theboxhousehotel.com/employment-opportunities/" target="_blank">Employment</a><a href="https://theboxhousehotel.com/privacy-policy/" target="_blank">Privacy</a><a href="https://theboxhousehotel.com/cookie-policy/" target="_blank">Cookies</a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:32px; align-items:center; margin-bottom:24px;">
+          <a href="http://www.franklinguesthouse.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-franklinguesthouse.png" alt="Franklin Guesthouse" style="height:44px;"></a>
+          <a href="http://www.henrynormanhotel.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/hnh-logo_bottom.png" alt="Henry Norman Hotel" style="height:44px;"></a>
+          <a href="http://www.habitat101brooklyn.com/" target="_blank"><img src="https://theboxhousehotel.com/wp-content/themes/theboxhouse/images/footer-habitat101.png" alt="Habitat 101" style="height:44px;"></a>
+        </div>
+        <div style="display:flex; justify-content:center; gap:24px; font:500 12px 'Archivo',sans-serif; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:20px; color:#A79F8F;">
+          <a href="https://www.facebook.com/theboxhousehotel" target="_blank">Facebook</a>
+          <a href="https://instagram.com/theboxhousehotel/" target="_blank">Instagram</a>
+          <a href="https://www.tripadvisor.com/Hotel_Review-g60827-d2452838-Reviews-The_Box_House_Hotel-Brooklyn_New_York.html" target="_blank">Tripadvisor</a>
+        </div>
+        <div style="font:400 13px 'Archivo',sans-serif; color:#7A7469;">77 Box Street, Brooklyn, NY 11222 · {{ phone }}</div>
+      </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&#10;  &quot;bookingUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;https://secure.webrez.com/hotel/1091/&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Booking&quot; },&#10;  &quot;phone&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;718.383.3800&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Contact&quot; }&#10;}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      bookingUrl: this.props.bookingUrl ?? 'https://secure.webrez.com/hotel/1091/',
+      phone: this.props.phone ?? '718.383.3800'
+    };
+  }
+}
+</script>
+</body>
+</html>
