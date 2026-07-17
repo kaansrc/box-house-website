@@ -253,7 +253,7 @@ function finish(res, req, ok, error, status) {
   const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title} • The Box House Hotel</title>`
     + `<style>body{margin:0;background:#141210;color:#E9E2D3;font-family:Georgia,'Times New Roman',serif;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:24px}`
     + `.c{max-width:520px}h1{font-weight:400;font-size:34px;margin:0 0 14px}p{font-family:Arial,sans-serif;color:#A79F8F;font-size:16px;line-height:1.6;margin:0 0 26px}`
-    + `a{display:inline-block;background:#C8A87A;color:#141210;text-decoration:none;font-family:Arial,sans-serif;font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:13px;padding:15px 30px}</style>`
+    + `a{display:inline-block;background:#C87E5A;color:#141210;text-decoration:none;font-family:Arial,sans-serif;font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:13px;padding:15px 30px}</style>`
     + `</head><body><div class="c"><h1>${title}</h1><p>${body}</p><a href="/">Back to the site</a></div></body></html>`;
   send(res, ok ? 200 : (status || 400), 'text/html; charset=utf-8', html);
 }
