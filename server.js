@@ -65,6 +65,16 @@ const ROUTES = {
   '/post/social-gathering-in-brooklyn/': 'BlogSocialGathering',
 };
 
+// Once DNS is cut over, the deployment answers on several hostnames; everything
+// 301s to the canonical apex. The retired events domain's homepage maps to the
+// events hub; its other slugs are translated by LEGACY below in the same hop.
+const CANONICAL_HOST = 'theboxhousehotel.com';
+const ALT_HOSTS = new Set([
+  'www.theboxhousehotel.com',
+  'theboxhousehotelevents.com',
+  'www.theboxhousehotelevents.com',
+]);
+
 // Root-level SEO/discovery files.
 const ROOT_FILES = {
   '/sitemap.xml': ['sitemap.xml', 'application/xml; charset=utf-8'],
@@ -125,6 +135,15 @@ function serveStatic(req, res) {
   let urlPath = decodeURIComponent((req.url.split('?')[0] || '/'));
   if (urlPath === '/favicon.ico') urlPath = '/assets/images/theme/favicon.png';
   if (urlPath === '/healthz') return send(res, 200, 'text/plain', 'ok');
+
+  const host = (req.headers.host || '').toLowerCase().split(':')[0];
+  if (ALT_HOSTS.has(host)) {
+    const bare = urlPath.length > 1 && urlPath.endsWith('/') ? urlPath.slice(0, -1) : urlPath;
+    let target = LEGACY[bare] || urlPath;
+    if (host.includes('events') && urlPath === '/') target = '/box-house-events/';
+    const qs = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
+    return send(res, 301, 'text/plain', 'Moved', { Location: 'https://' + CANONICAL_HOST + target + qs });
+  }
 
   if (ROOT_FILES[urlPath]) {
     const [file, type] = ROOT_FILES[urlPath];
