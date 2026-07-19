@@ -8,9 +8,10 @@
  * pages are static, only the form handler is server-side so the API key stays secret.
  *
  * Configure as Replit Secrets (or a local .env — see .env.example):
- *   RESEND_API_KEY     – from resend.com (without it, submissions are logged, not sent)
- *   INQUIRY_TO_EVENTS  – events leads (default hostyourevent@theboxhousehotel.com)
- *   INQUIRY_TO_GENERAL – general contact leads (default info@theboxhousehotel.com)
+ *   RESEND_API_KEY          – from resend.com (without it, submissions are logged, not sent)
+ *   INQUIRY_TO_EVENTS       – events leads (default hostyourevent@theboxhousehotel.com)
+ *   INQUIRY_TO_GENERAL      – general contact leads (default info@theboxhousehotel.com)
+ *   INQUIRY_TO_RESERVATIONS – contact-form reservation topics (default reservations@theboxhousehotel.com)
  *   INQUIRY_FROM       – a Resend-verified sender, e.g. "The Box House Hotel <inquiries@theboxhousehotel.com>"
  *
  * Node 18+ (uses global fetch). No dependencies.
@@ -26,6 +27,7 @@ const HOST = process.env.HOST || '0.0.0.0';
 const RESEND_API_KEY = process.env.RESEND_API_KEY || '';
 const TO_EVENTS = process.env.INQUIRY_TO_EVENTS || 'hostyourevent@theboxhousehotel.com';
 const TO_GENERAL = process.env.INQUIRY_TO_GENERAL || 'info@theboxhousehotel.com';
+const TO_RESERVATIONS = process.env.INQUIRY_TO_RESERVATIONS || 'reservations@theboxhousehotel.com';
 const FROM = process.env.INQUIRY_FROM || 'The Box House Hotel <onboarding@resend.dev>';
 
 // ---- clean URLs (mirror the original WordPress permalinks; new pages follow the same style) ----
@@ -223,7 +225,10 @@ function handleInquiry(req, res) {
     }
     const phoneFmt = digits.length === 10 ? `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}` : '';
 
-    const to = formType === 'events' ? TO_EVENTS : TO_GENERAL;
+    // Contact-form routing: reservation topics go to the front desk, the rest to info@.
+    const to = formType === 'events' ? TO_EVENTS
+      : /reservation|accommodation/i.test(topic) ? TO_RESERVATIONS
+      : TO_GENERAL;
     const kind = formType === 'events' ? (eventType || 'Event') : (topic || 'General');
     const subject = `New ${formType === 'events' ? 'event ' : ''}inquiry — ${name || email} · ${kind}`;
     const lines = [
@@ -289,5 +294,6 @@ server.listen(PORT, HOST, () => {
   console.log(`The Box House Hotel site running on http://${HOST}:${PORT}`);
   console.log(`  events -> ${TO_EVENTS}`);
   console.log(`  general -> ${TO_GENERAL}`);
+  console.log(`  reservations -> ${TO_RESERVATIONS}`);
   console.log(`  resend -> ${RESEND_API_KEY ? 'configured' : 'NOT configured (submissions logged only)'}`);
 });

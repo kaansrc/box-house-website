@@ -18,7 +18,7 @@ Rollback at any point: hotel = set the `@` A record back to `104.196.188.81`; ev
 
 ## Phase 0 — decisions before touching anything
 
-1. **Confirm the general-inquiry mailbox.** The contact form currently sends to the placeholder `info@theboxhousehotel.com`. Confirm this mailbox exists in Google Workspace, or pick the real one and set it as the `INQUIRY_TO_GENERAL` secret in Phase 1. (Events forms go to `hostyourevent@theboxhousehotel.com` — confirmed.)
+1. **Recipient mailboxes (confirmed 2026-07-19):** events forms → `hostyourevent@theboxhousehotel.com`; contact form with the "Accommodations & Reservations" topic → `reservations@theboxhousehotel.com`; all other contact topics → `info@theboxhousehotel.com`. These are the code defaults, so no secrets are needed unless an address changes. Confirm all three mailboxes exist in Google Workspace.
 2. **Ask the team whether anyone receives email at `@theboxhousehotelevents.com`.** The domain has Mailgun MX records (typically Wix's form/inbox mail). If real mail arrives there, plan to move those senders to the hotel domain, or re-add the MX records in Phase 5 step 2.
 3. Latest `main` is deployed state: includes the host-redirect logic in `server.js` (www and the events domain 301 to theboxhousehotel.com; the events homepage lands on `/box-house-events/`, old Wix slugs like `/wedding` map to their new pages).
 
@@ -28,8 +28,8 @@ Rollback at any point: hotel = set the `@` A record back to `104.196.188.81`; ev
 2. Nothing to configure in code: `.replit` is already set up (Autoscale deployment, `node server.js`, port 8080 → 80).
 3. Click **Deploy → Autoscale**. In the deployment's **Secrets**, add:
    - `RESEND_API_KEY` — from resend.com (same account as vesper.events)
-   - `INQUIRY_TO_GENERAL` — only if Phase 0 chose something other than info@
    - `INQUIRY_FROM` — leave unset for now; set in Phase 2 step 3
+   - (recipient addresses need no secrets; the defaults are the confirmed mailboxes from Phase 0)
 4. Smoke-test on the `*.replit.app` URL:
    - `/`, `/rooms/`, `/box-house-events/`, `/weddings/`, `/post/social-gathering-in-brooklyn/` all render
    - `/sitemap.xml` and `/robots.txt` serve
