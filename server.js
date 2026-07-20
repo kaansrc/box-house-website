@@ -114,7 +114,29 @@ const LEGACY = {
   '/local-guide': '/about-the-box-house/',
   '/covid-19': '/faq/',
   '/gallery-demo-1': '/gallery/',
+  '/hello-world': '/blog/',        // default WP starter post
+  // events site (Wix) legal pages with no 1:1 page here
+  '/privacy': '/privacy-policy/',
+  '/terms': '/privacy-policy/',
+  // NOTE: do NOT add slug->slug/ entries here (e.g. '/blog' -> '/blog/').
+  // The lookup below strips the trailing slash before matching, so such an
+  // entry would catch the real page '/blog/' and 301 it to itself (loop).
+  // Events-domain slugs that share a name with a page here (/our-team,
+  // /gallery, /blog, /contact) resolve via the canonical slashless->slash
+  // 301 instead — one extra hop, no loop.
 };
+
+// Whole families of old WordPress URLs that were folded into a single page.
+// Prefix match (keep the trailing slash so /rooms/ is never caught by /room/).
+// Covers every /room/<type>/ detail page, the portfolio (gallery) CPTs, the
+// lone WP category archive, and author archives.
+const LEGACY_PREFIX = [
+  ['/room/', '/rooms/'],
+  ['/portfolio_item/', '/gallery/'],
+  ['/portfolio_grid/', '/gallery/'],
+  ['/category/', '/blog/'],
+  ['/author/', '/'],
+];
 
 const MIME = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
@@ -156,6 +178,11 @@ function serveStatic(req, res) {
   const noSlash = urlPath.length > 1 && urlPath.endsWith('/') ? urlPath.slice(0, -1) : urlPath;
   if (LEGACY[noSlash]) {
     return send(res, 301, 'text/plain', 'Moved', { Location: LEGACY[noSlash] });
+  }
+  for (const [prefix, target] of LEGACY_PREFIX) {
+    if (urlPath.startsWith(prefix)) {
+      return send(res, 301, 'text/plain', 'Moved', { Location: target });
+    }
   }
 
   // Clean URLs: serve the mapped page; 301 the slashless form to the canonical
